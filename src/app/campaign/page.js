@@ -1,11 +1,7 @@
-import Head from 'next/head'
-import  { Form } from "../components/form";
-import {useEffect, useRef, useState} from "react";
-
+"use client"; // This is a client component 👈🏽
 
 export default function Campaign01() {
-
-    const initialRef = useRef()
+    
     return (
         <>
             <div>
@@ -15,7 +11,7 @@ export default function Campaign01() {
                             <div className='font-roboto text-6xl tracking-tighter text-white.100'>User Experience Audit</div>
                             <div className='text-tan.500 text-xl md:py-2 py-6'>Invest in your users.  They deserve it.</div>
                             <div className="md:my-10  bg-campaignLight w-full flex flex-col justify-center">
-                                <Form initialRef={initialRef} />
+
                             </div>
 
                         </div>
