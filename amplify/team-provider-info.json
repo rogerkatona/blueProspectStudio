@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bpvideo-dev-213127-authRole",
+      "UnauthRoleArn": "arn:aws:iam::697974131866:role/amplify-bpvideo-dev-213127-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::697974131866:role/amplify-bpvideo-dev-213127-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bpvideo-dev-213127-deployment",
+      "UnauthRoleName": "amplify-bpvideo-dev-213127-unauthRole",
+      "StackName": "amplify-bpvideo-dev-213127",
+      "StackId": "arn:aws:cloudformation:us-east-1:697974131866:stack/amplify-bpvideo-dev-213127/b6d42690-9e16-11ee-8b91-0e1e7f34405d",
+      "AmplifyAppId": "dtnewtojj6cgi"
+    }
+  }
+}
