@@ -1,7 +1,7 @@
 "use client"; // This is a client component 👈🏽
 
 export default function Campaign01() {
-    
+
     return (
         <>
             <div>
