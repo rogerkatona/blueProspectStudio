@@ -36,7 +36,7 @@ export const Form = ({ initialRef}) => {
 
         const location = campaignState === true ? 'campaign-usAudit-blueprospect.com' : 'blueprospect.com'
         const endpoint =
-            "https://mdsa6xc3i2ex6umu7wm4aireoa0klhyw.lambda-url.us-east-1.on.aws/";
+            "https://ke37371vfe.execute-api.us-east-1.amazonaws.com/default/sendContactEmail";
         // We use JSON.stringify here so the data can be sent as a string via HTTP
         const body = JSON.stringify({
             senderName: formState.name,
@@ -56,11 +56,12 @@ export const Form = ({ initialRef}) => {
                 fetch(endpoint, requestOptions)
                     .then((res) => {
                     if (res.status === 200 || 500) {
-                        setToastMessage({message:(
+                        setToastMessage({ message:(
+
                                 <div className={`${pathname.startsWith("/campaign/")  ? 'hidden' : 'block'} absolute bottom-0 text-bg100 -mb-10`}>
                                     Thank you for reaching out to us.  We&apos;ll respond to you shortly!  Have a great day.
                                 </div>
-                            )});
+                            )})
                         clearFormState();
                     }
                 })
