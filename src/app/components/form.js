@@ -1,8 +1,12 @@
 "use client"; // This is a client component 👈🏽
 
 import {useState} from "react";
+import {usePathname} from 'next/navigation'
+
 
 export const Form = ({ initialRef}) => {
+
+    const pathname = usePathname();
 
     const initialState = {
         name: '',
@@ -26,13 +30,13 @@ export const Form = ({ initialRef}) => {
     const handleContactFormSubmit = async (e) => {
         e.preventDefault()
 
-        if (router.pathname.startsWith("/campaign/")){
+        if (pathname.startsWith("/campaign/")){
             setCampaignState(true)
         }
 
-        const location = campaignState === true ? 'campaign-usAudit-blueprospect.com' : ' FryTech website contact form'
+        const location = campaignState === true ? 'campaign-usAudit-blueprospect.com' : 'blueprospect.com'
         const endpoint =
-            "https://ke37371vfe.execute-api.us-east-1.amazonaws.com/default/sendContactEmailFryTech";
+            "https://ke37371vfe.execute-api.us-east-1.amazonaws.com/default/sendContactEmail";
         // We use JSON.stringify here so the data can be sent as a string via HTTP
         const body = JSON.stringify({
             senderName: formState.name,
@@ -53,7 +57,7 @@ export const Form = ({ initialRef}) => {
                     .then((res) => {
                     if (res.status === 200 || 500) {
                         setToastMessage({message:(
-                                <div className={`${router.pathname.startsWith("/campaign/")  ? 'hidden' : 'block'} absolute bottom-0 text-white.100 -mb-10`}>
+                                <div className={`${pathname.startsWith("/campaign/")  ? 'hidden' : 'block'} absolute bottom-0 text-bg100 -mb-10`}>
                                     Thank you for reaching out to us.  We&apos;ll respond to you shortly!  Have a great day.
                                 </div>
                             )});
@@ -62,14 +66,14 @@ export const Form = ({ initialRef}) => {
                 })
             } catch (e) {
                 setToastMessage({message:(
-                        <div className="text-lightRed.900 font-bold absolute bottom-0 -mb-10">
+                        <div className="text-bg100 font-bold absolute bottom-0 -mb-10">
                             Deepest apologies.  There was an error with your request.  Please try again later.
                         </div>
                     )})
             }
         } else {
             setToastMessage({message:(
-                    <div className="text-lightRed.900 font-bold absolute -bottom-1 -mb-10 ">
+                    <div className="text-bg100 font-bold absolute -bottom-1 -mb-10 ">
                         Please verify all fields are filled out.
                     </div>
                 )})
@@ -92,7 +96,7 @@ export const Form = ({ initialRef}) => {
                     </label>
                     <input
                         ref={initialRef}
-                        className="text-darkBlue.700 border py-3 px-4 mb-4"
+                        className="text-bg500 border py-3 px-4 mb-4"
                         placeholder="Enter your name"
                         value={formState.name}
                         onChange={(e) =>
@@ -105,7 +109,7 @@ export const Form = ({ initialRef}) => {
                         Email*
                     </label>
                     <input
-                        className="text-darkBlue.700 border py-3 px-4 mb-4"
+                        className="text-bg500 border py-3 px-4 mb-4"
                         placeholder="yourname@email.com"
                         type="email"
                         value={formState.email}
@@ -122,7 +126,7 @@ export const Form = ({ initialRef}) => {
                         </label>
                         <div>
                         <textarea
-                            className="w-full border border-darkBlue.700 py-3 px-4 mb-4 "
+                            className="text-bg500  w-full border border-blue800 py-3 px-4 mb-4 "
                             rows="4"
                             value={formState.contactMessage}
                             onChange={(e) =>
@@ -132,10 +136,10 @@ export const Form = ({ initialRef}) => {
                         </div>
                     </div>
                 </div>
-                <div className="">
+                <div className="pt-2">
                     <button
                         type="submit"
-                        className = "text-xs text-medBlue.500 uppercase px-3 py-2 lg:mt-0 mt-2 rounded-lg bg-tan.100">
+                        className="bg-yellow900 hover:bg-yellow600 hover:text-bg100 text-xs text-bg100 uppercase px-4 py-3 rounded-lg  md:mt-0 mt-6"> Submit
                     </button>
                 </div>
             </div>
