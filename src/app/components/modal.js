@@ -7,9 +7,9 @@ const Modal = ({ isShowing, onClose }) => {
     }
 
     return (
-        <div className="fixed top-0 left-0 w-full h-full bg-bg800 z-20" >
+        <div className="fixed top-0 left-0 w-full h-full bg-bg800 z-20 " >
             {/* Your overlay content goes here */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
+            <div>
                 <section className="fixed right-0">
                     <div className="modal-close cursor-pointer z-10 p-4">
                         <button type="button" className="text-bg50" data-dismiss="modal" aria-label="Close" onClick={onClose}>
