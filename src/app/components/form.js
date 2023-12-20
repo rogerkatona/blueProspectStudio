@@ -128,7 +128,7 @@ export const Form = ({ initialRef}) => {
                         <div>
                         <textarea
                             className="text-bg500  w-full border border-blue800 py-3 px-4 mb-4 "
-                            rows="4"
+                            rows="3"
                             value={formState.contactMessage}
                             onChange={(e) =>
                                 setFormState({ ...formState, contactMessage: e.target.value })
@@ -137,7 +137,7 @@ export const Form = ({ initialRef}) => {
                         </div>
                     </div>
                 </div>
-                <div className="pt-2">
+                <div className="">
                     <button
                         type="submit"
                         className="bg-yellow900 hover:bg-yellow600 hover:text-bg100 text-xs text-bg100 uppercase px-4 py-3 rounded-lg  md:mt-0 mt-6"> Submit

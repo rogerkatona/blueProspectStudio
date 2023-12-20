@@ -9,18 +9,18 @@ export default function Service(props) {
 
     return (
         <>
-                <section className="flex flex-col pt-24 px-6">
+                <section className="flex flex-col px-6">
                     {filteredItem
                         .filter(filteredItem => filteredItem.featured === "false")
                         .map(filteredItem => (
-                            <section className="pb-24">
+                            <section>
                                 <div
                                     key={filteredItem.id}
-                                    className={`flex lg:flex-row flex-col max-w-8xl mx-auto  ${filteredItem.id % 2 === 0  ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}>
+                                    className={`flex lg:flex-row flex-col max-w-8xl mx-auto pt-24  ${filteredItem.id % 2 === 0  ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}>
 
                                     <div className="">
                                         <img
-                                            className="filter backdrop-filter backdrop-blur-md "
+                                            className=""
                                             src={filteredItem.src}
                                             width={1000}
                                             alt={filteredItem.alt}

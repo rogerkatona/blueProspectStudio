@@ -10,7 +10,7 @@ export default function Promo(props) {
 
     return (
 
-        <section className="bg-bg900 py-24 md:px-12">
+        <section className="pt-24 md:px-12">
             {filteredItem
                 .map(filteredItem => (
                     <div
