@@ -15,7 +15,7 @@ export default function HeroIndex({ children, home }) {
 
     return (
         <>
-        <section className="bg-hero-index bg-cover bg-fixed bg-no-repeat bg-center">
+        <section className="bg-hero-index bg-cover md:bg-fixed bg-no-repeat md:bg-center">
             <div className="flex lg:flex-row flex-col-reverse justify-center lg:items-center lg:mx-auto lg:max-w-8xl h-screen90vh md:px-0">
                 <div className="text-center">
                     <div>
