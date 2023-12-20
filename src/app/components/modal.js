@@ -30,8 +30,10 @@ const Modal = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
                             Contact
                         </div>
                         <div className="text-bg200 flex flex-row pb-8">
-                            <div className="" >
-                                We value your feedback, inquiries, and suggestions. Our dedicated support team is ready to provide you with the information and assistance you need. Feel free to reach out to us via the contact form below, and we'll get back to you as soon as possible. Thank you for choosing Blue Prospect – where customer satisfaction is our priority.
+                            <div >
+                                <span className="md:block hidden" >We value your feedback, inquiries, and suggestions. Our dedicated support team is ready to provide you with the information and assistance you need. </span>
+                                <span>Feel free to reach out to us via the contact form below, and we'll get back to you as soon as possible.</span>
+                                <span className="md:block hidden" >Thank you for choosing Blue Prospect – where customer satisfaction is our priority.</span>
                             </div>
                         </div>
                         <Form/>
