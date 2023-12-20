@@ -28,7 +28,7 @@ export default function Service(props) {
                                     </div>
                                     <div className={`${filteredItem.id % 2 === 0  ? 'lg:pr-12 lg:pt-0 pt-12' : 'lg:pl-12 lg:pt-0 pt-12'} lg:w-4/5 w-full `}>
                                         <div className='font-bebasNeue text-4xl text-bg100 border-b'>{filteredItem.number}</div>
-                                        <div className='text-2xl text-bg100 pt-4'>{filteredItem.title}</div>
+                                        <div className='font-raleway text-4xl text-bg100 pt-4'>{filteredItem.title}</div>
                                         <ul className="text-left list-disc pt-2 text-bg200 pl-4">
                                             {filteredItem.list.map((list) =>
                                                 <li key={`${filteredItem.id}-${filteredItem.featuredID}`}>
