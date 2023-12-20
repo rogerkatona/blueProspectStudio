@@ -13,10 +13,10 @@ export default function Footer() {
     const {isShowing, toggle} = useModal();
 
     return (
-        <footer className="flex flex-col justify-center md:items-center md:px-0 px-6 bg-bg800 py-48 space-y-6 mt-24">
+        <footer className="flex flex-col justify-center md:items-center md:px-0 px-6 bg-bg800 py-24 ">
          <section>
             <div>
-                <div className="flex flex-row items-center ">
+                <div className="flex flex-row items-center pb-4 ">
                     <Link href='/'>
                         <div>
                             <img
@@ -30,11 +30,11 @@ export default function Footer() {
             </div>
         </section>
 
-            <div className='flex md:flex-row flex-col'>
+            <div className='flex md:flex-row flex-col pb-4'>
                 <NavBar navItems={navItems}/>
             </div>
             <div className="flex flex-col md:justify-center md:items-center ">
-                <div className='flex flex-row pb-8'>
+                <div className='flex flex-row pb-4'>
                     <SocialMediaItem socialMediaItems={socialMediaItems}/>
                 </div>
                 <Link href=''>

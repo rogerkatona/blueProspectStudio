@@ -7,9 +7,9 @@ import Link from "next/link";
 export default function GridMediaIndex(props) {
 
     return (
-        <>
+        <div className="md:px-12 px-6 bg-bg600">
             <section>
-                <div className="flex flex-col max-w-8xl mx-auto lg:mt-24 mt-12 lg:px-0 px-12 ">
+                <div className="flex flex-col max-w-8xl mx-auto">
                     <div className='text-yellow500'>
                         <Link href="../portfolio">
                             <span className='hover:underline uppercase text-xs'>/ Portfolio</span>
@@ -25,8 +25,8 @@ export default function GridMediaIndex(props) {
                 </div>
             </section>
             <section>
-                <div  className="flex py-12 lg:py-12 ">
-                    <div className="grid xl:grid-cols-3 gap-2 md:grid-cols-2 grid-cols-1 max-w-8xl mx-auto xl:px-0 px-12">
+                <div  className="flex pt-12 pb-24 ">
+                    <div className="grid xl:grid-cols-3 gap-2 md:grid-cols-2 grid-cols-1 max-w-8xl mx-auto">
                         {gridItems
                             .filter(filteredItem => filteredItem.type === props.type)
                             .sort((a, b) => {
@@ -74,7 +74,7 @@ export default function GridMediaIndex(props) {
                     </div>
                 </div>
              </section>
-        </>
+        </div>
     )
 }
 

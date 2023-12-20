@@ -9,42 +9,44 @@ export default function Service(props) {
 
     return (
         <>
-                <section className="flex flex-col px-6">
+                <section className="flex flex-col pt-24 px-6">
                     {filteredItem
                         .filter(filteredItem => filteredItem.featured === "false")
                         .map(filteredItem => (
-                            <div
-                                key={filteredItem.id}
-                                className={`flex lg:flex-row flex-col  md:space-y-12  space-y-6 max-w-8xl mx-auto lg:py-12 pb-8 ${filteredItem.id % 2 === 0  ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}>
+                            <section className="pb-24">
+                                <div
+                                    key={filteredItem.id}
+                                    className={`flex lg:flex-row flex-col max-w-8xl mx-auto  ${filteredItem.id % 2 === 0  ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}>
 
-                                <div className="pt-12 ">
-                                    <img
-                                        className="filter backdrop-filter backdrop-blur-md "
-                                        src={filteredItem.src}
-                                        width={1000}
-                                        alt={filteredItem.alt}
-                                    />
-                                </div>
-                                <div className={`${filteredItem.id % 2 === 0  ? 'lg:pr-12' : 'lg:pl-12'} lg:w-4/5 w-full pt-0 `}>
-                                    <div className='font-bebasNeue text-4xl text-bg100 border-b'>{filteredItem.number}</div>
-                                    <div className='text-2xl text-bg100 pt-4'>{filteredItem.title}</div>
-                                    <ul className="text-left list-disc pt-2 text-bg200 pl-4">
-                                        {filteredItem.list.map((list) =>
-                                            <li key={`${filteredItem.id}-${filteredItem.featuredID}`}>
-                                                {list}
-                                            </li>
-                                        )}
-                                    </ul>
-                                    <div className={`${filteredItem.isButtonActive === 'true'  ? 'block' : 'hidden'} pt-0`}>
-                                        <Link href={filteredItem.buttonHref}>
-                                            <span
-                                                className="bg-newYellow.800 hover:bg-newYellow.900 hover:text-gray.100 text-xs text-gray.100 uppercase px-4 py-3 rounded-lg">
-                                                {filteredItem.buttonText}
-                                            </span>
-                                        </Link>
+                                    <div className="">
+                                        <img
+                                            className="filter backdrop-filter backdrop-blur-md "
+                                            src={filteredItem.src}
+                                            width={1000}
+                                            alt={filteredItem.alt}
+                                        />
+                                    </div>
+                                    <div className={`${filteredItem.id % 2 === 0  ? 'lg:pr-12 lg:pt-0 pt-12' : 'lg:pl-12 lg:pt-0 pt-12'} lg:w-4/5 w-full `}>
+                                        <div className='font-bebasNeue text-4xl text-bg100 border-b'>{filteredItem.number}</div>
+                                        <div className='text-2xl text-bg100 pt-4'>{filteredItem.title}</div>
+                                        <ul className="text-left list-disc pt-2 text-bg200 pl-4">
+                                            {filteredItem.list.map((list) =>
+                                                <li key={`${filteredItem.id}-${filteredItem.featuredID}`}>
+                                                    {list}
+                                                </li>
+                                            )}
+                                        </ul>
+                                        <div className={`${filteredItem.isButtonActive === 'true'  ? 'block' : 'hidden'} pt-0`}>
+                                            <Link href={filteredItem.buttonHref}>
+                                                <span
+                                                    className="bg-newYellow.800 hover:bg-newYellow.900 hover:text-gray.100 text-xs text-gray.100 uppercase px-4 py-3 rounded-lg">
+                                                    {filteredItem.buttonText}
+                                                </span>
+                                            </Link>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </section>
                     ))}
                 </section>
         </>

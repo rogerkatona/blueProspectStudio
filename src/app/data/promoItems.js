@@ -4,7 +4,7 @@ const promoItems = [
         headline: "Welcome to BP",
         title: 'Blue Prospect Studio unlocks the power of visual storytelling with our comprehensive video production services.',
         source: "",
-        text: "From concept to delivery, we bring your ideas to life, creating captivating and compelling content that resonates with your audience. Whether it's corporate videos, promotional content, event coverage, or cinematic productions, we tailor our services to meet your unique needs. Elevate your brand, engage your audience, and leave a lasting impression with our professional video production services.",
+        text: "From concept to delivery, we bring your ideas to life, creating captivating and compelling content that resonates with your audience. We tailor our services to meet your unique needs. Elevate your brand, engage your audience, and leave a lasting impression with our professional video production services.",
         actionText: "",
         buttonLabel: '',
     },

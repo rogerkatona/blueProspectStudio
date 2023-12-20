@@ -15,16 +15,16 @@ export default function HeroIndex({ children, home }) {
 
     return (
         <>
-        <section className="bg-hero-index bg-cover bg-no-repeat bg-fixed bg-center">
-            <div className="flex lg:flex-row flex-col-reverse justify-center lg:items-center lg:mx-auto lg:max-w-8xl h-screen90vh py-6 md:px-0 px-6">
+        <section className="bg-hero-index bg-cover bg-fixed bg-no-repeat bg-center">
+            <div className="flex lg:flex-row flex-col-reverse justify-center lg:items-center lg:mx-auto lg:max-w-8xl h-screen90vh md:px-0">
                 <div className="text-center">
                     <div>
-                        <div className="font-raleway font-bold lg:text-8xl text-5xl text-bg100 ">VIDEO PRODUCTION</div>
+                        <div className="font-raleway font-bold lg:text-8xl text-5xl text-bg100 pb-4 ">VIDEO PRODUCTION</div>
                     </div>
-                    <div className="lg:text-lg text-xs text-bg200">
+                    <div className="text-bg200 text-lg lg:pb-8 pb-4">
                         Crafting Stories, Capturing Moments: Your Vision, Our Passion.
                     </div>
-                    <div className="lg:pt-8 pt-4">
+                    <div>
                         <Link href=''>
                             <button
                                 onClick={toggle}

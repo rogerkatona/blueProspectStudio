@@ -42,7 +42,7 @@ export default function FeatureIndex(props) {
                                         <div className="uppercase text-xs text-bg300">
                                             <Date dateString={filteredItem.date} />
                                         </div>
-                                        <div className='text-bg200 pb-6'>{filteredItem.description}</div>
+                                        <div className='text-bg200 text-lg pb-6'>{filteredItem.description}</div>
                                         <div className="flex flex-row">
                                             <div className={`${filteredItem.isButtonActive === 'true'  ? 'block' : 'hidden'}  pr-2`}>
                                                 <a
