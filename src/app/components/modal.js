@@ -1,18 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import  { Form } from "./form";
 
+const Modal = ({ isShowing, onClose }) => {
+    if (!isShowing) {
+        return null;
+    }
 
-
-const Modal = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
-
-    <>
-        <div className="relative" aria-modal aria-hidden tabIndex={-1} role="dialog">
-            <div className="w-full h-full z-10 bg-banner-01 fixed top-0 left-0 flex flex-row">
-
+    return (
+        <div className="fixed top-0 left-0 w-full h-full bg-bg800 z-20" >
+            {/* Your overlay content goes here */}
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
                 <section className="fixed right-0">
                     <div className="modal-close cursor-pointer z-10 p-4">
-                        <button type="button" className="text-bg50" data-dismiss="modal" aria-label="Close" onClick={hide}>
+                        <button type="button" className="text-bg50" data-dismiss="modal" aria-label="Close" onClick={onClose}>
                             <span aria-hidden="true">
                                 <svg className="fill-bg100 text-bg100" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                                      viewBox="0 0 18 18">
@@ -23,7 +23,6 @@ const Modal = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
                         </button>
                     </div>
                 </section>
-
                 <section className="max-w-8xl mx-auto pt-12 ">
                     <div className="lg:p-12 p-6 h-full">
                         <div className="font-bebasNeue text-6xl text-bg100  flex flex-row  pb-4 ">
@@ -39,10 +38,9 @@ const Modal = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
                         <Form/>
                     </div>
                 </section>
-
             </div>
         </div>
-    </>, document.body
-) : null;
+    );
+};
 
 export default Modal;

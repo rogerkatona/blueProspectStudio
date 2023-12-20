@@ -39,7 +39,7 @@ export default function HeroIndex({ children, home }) {
         <section>
             <Modal
                 isShowing={isShowing}
-                hide={toggle}
+                onClose={toggle}
             />
         </section>
     </>

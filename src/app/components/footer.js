@@ -47,12 +47,10 @@ export default function Footer() {
 
             </div>
 
-
-
             <section>
                 <Modal
                     isShowing={isShowing}
-                    hide={toggle}
+                    onClose={toggle}
                 />
             </section>
         </footer>

@@ -69,7 +69,7 @@ export default function Header() {
             <section>
                 <Modal
                     isShowing={isShowing}
-                    hide={toggle}
+                    onClose={toggle}
                 />
             </section>
         </header>
