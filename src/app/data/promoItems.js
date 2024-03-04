@@ -4,7 +4,7 @@ const promoItems = [
         headline: "Welcome to BP",
         title: '',
         source: "",
-        text: "Where cutting-edge technology meets intelligent design to forge engaging partnerships. Here, AI innovation is at the heart of what we do, making us your strategic partner in navigating the fast-changing world with modern, forward-thinking solutions.",
+        text: "Where cutting-edge technology meets intelligent design. Here, AI innovation is at the heart of what we do, making us your strategic partner in navigating the fast-changing world with modern, forward-thinking solutions.",
         actionText: "",
         buttonLabel: '',
     },

@@ -21,7 +21,7 @@ export default function GridMediaIndex(props) {
                     <div className='font-raleway text-4xl  py-4  text-gray.900'>
                         Take a look at some of our recent work
                     </div>
-                    <div className='text-gray.500'>Our recent projects showcase a diverse portfolio, ranging from visually stunning corporate brand narratives to engaging promotional content, where our team seamlessly blends creative storytelling, cutting-edge technology, and professional execution to bring our clients' visions to life.</div>
+                    <div className='text-gray.500 max-w-5xl'>Our recent projects showcase a diverse portfolio, ranging from visually stunning corporate brand narratives to engaging promotional content, where our team seamlessly blends creative storytelling, cutting-edge technology, and professional execution to bring our clients' visions to life.</div>
                 </div>
             </section>
             <section>
