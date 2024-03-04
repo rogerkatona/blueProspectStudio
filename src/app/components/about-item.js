@@ -14,9 +14,9 @@ export default function AboutItem(props) {
 
                     <section
                         key={filteredItem.id}
-                        className="md:px-12 px-6 pt-24 bg-bg500">
+                        className="md:px-12 px-6 pt-12 bg-white.100">
 
-                        <div className={`flex flex-col max-w-8xl mx-auto ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
+                        <div className={`flex flex-col max-w-7xl mx-auto ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                             <div className=' '>
                                 <img
                                     src={filteredItem.src}
@@ -26,12 +26,12 @@ export default function AboutItem(props) {
                             </div>
                             <div className={`lg:pt-0 pt-12 ${filteredItem.featuredID % 2 !== 0  ? 'lg:pl-6' : 'lg:pr-6'}`}>
                                 <div className="">
-                                    <div className='font-bebasNeue text-4xl text-bg50  border-b border-bg-bg50 mb-4'>{filteredItem.number}</div>
+                                    <div className='font-bebasNeue text-4xl text-gray.600  border-b border-bg-bg50 mb-4'>{filteredItem.number}</div>
 
-                                    <div className='font-raleway text-4xl text-bg100 py-4'>
+                                    <div className='font-raleway text-4xl text-gray.900 py-4'>
                                         {filteredItem.title}
                                     </div>
-                                    <div className='text-bg200 pb-6'>{filteredItem.description}</div>
+                                    <div className='text-gray.500 pb-6'>{filteredItem.description}</div>
                                     <div className="flex flex-row">
                                         <div className={`${filteredItem.isButtonActive === 'true'  ? 'block' : 'hidden'}  pr-2`}>
                                             <a

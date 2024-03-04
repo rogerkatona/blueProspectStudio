@@ -10,7 +10,7 @@ export default function Portfolio() {
         <section className="mx-auto pb-12 bg-white.100">
 
             <div
-                className="flex flex-row justify-center items-center bg-cover bg-no-repeat h-80 sm:h-86 md:h-90 lg:h-97 xl:h-112"
+                className="flex flex-row justify-center items-center bg-cover  bg-no-repeat h-80 sm:h-86 md:h-90 lg:h-97 xl:h-112"
                 style={{
                     backgroundImage: `url('/image/background/30.png')`,
                 }}

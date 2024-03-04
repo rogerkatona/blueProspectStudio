@@ -138,9 +138,8 @@ export const Form = ({ initialRef}) => {
                     </div>
                 </div>
                 <div className="">
-                    <button
-                        type="submit"
-                        className="bg-yellow900 hover:bg-yellow600 hover:text-bg100 text-xs text-bg100 uppercase px-4 py-3 rounded-lg  md:mt-0 mt-6"> Submit
+                    <button className="hover:bg-sand hover:text-gray.800 text-xs text-white.100 uppercase px-4 py-3 border border-white.100 rounded-lg">
+                        Submit
                     </button>
                 </div>
             </div>
