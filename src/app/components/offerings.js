@@ -16,8 +16,7 @@ export default function Offerings(props) {
                         <div key={filteredItem.id} className="bg-gray p-6">
                                 <div className="">
                                     <div className="font-bebasNeue text-3xl text-gray.800">{filteredItem.label}</div>
-                                    <div className="text-xl leading-tight pt-2 text-gray.700">{filteredItem.description}</div>
-                                    <ul className="text-left list-disc pt-2 pl-4 text-sm text-gray.600">
+                                    <ul className="text-left list-disc pt-2 pl-4  text-gray.600">
                                         {filteredItem.list.map((list) =>
                                         <li key={list.list}>
                                             {list}

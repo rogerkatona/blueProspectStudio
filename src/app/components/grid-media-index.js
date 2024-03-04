@@ -49,7 +49,7 @@ export default function GridMediaIndex(props) {
                                             className="w-full h-auto transition-transform transform-gpu group-hover:grayscale"
                                         />
                                         {/* Add overlay or other elements for click effect */}
-                                        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 hover:border-raspberry hover:border-b-4">
+                                        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 hover:border-raspberry hover:border-b-8">
 
                                             <div className="absolute bottom-0 bg-raspberryBlack bg-opacity-60 w-full p-4 hover:bg-opacity-80">
                                                 <a

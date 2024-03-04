@@ -16,12 +16,16 @@ export default function HeroIndex({ children, home }) {
     return (
         <>
         <section
-            className="flex flex-row justify-center items-center bg-cover bg-center h-64 sm:h-96 md:h-128 lg:h-160 xl:h-192"
-            style={{
-                backgroundImage: `url('/image/background-hero-index.gif')`,
-            }}
-        >
-            <div className="flex flex-col text-center">
+            className="flex flex-row justify-center items-center relative overflow-hidden bg-gray-900 h-screen ">
+
+                <video autoPlay muted loop className="absolute inset-0 object-cover w-full h-full">
+                    <source src="/image/background-hero-index.mp4" type="video/mp4"/>
+                        Your browser does not support the video tag.
+                </video>
+
+
+
+            <div className="flex flex-col text-center z-10">
                 <div className="font-bebasNeue font-bold lg:text-8xl text-5xl text-bg50">Blue Prospect Studio</div>
                 <div className="text-bg050 text-lg lg:pb-4 pb-2">
                     Crafting Stories, Capturing Moments: Your Vision, Our Passion.
