@@ -15,26 +15,27 @@ export default function HeroIndex({ children, home }) {
 
     return (
         <>
-        <section className="bg-hero-index bg-cover md:bg-fixed bg-no-repeat md:bg-center">
-            <div className="flex lg:flex-row flex-col-reverse justify-center lg:items-center lg:mx-auto lg:max-w-8xl h-screen90vh md:px-0">
-                <div className="text-center">
-                    <div>
-                        <div className="font-raleway font-bold lg:text-8xl text-5xl text-bg100 pb-4 ">VIDEO PRODUCTION</div>
-                    </div>
-                    <div className="text-bg200 text-lg lg:pb-8 pb-4">
-                        Crafting Stories, Capturing Moments: Your Vision, Our Passion.
-                    </div>
+        <section
+            className="flex flex-row justify-center items-center bg-cover bg-center h-64 sm:h-96 md:h-128 lg:h-160 xl:h-192"
+            style={{
+                backgroundImage: `url('/image/background-hero-index.gif')`,
+            }}
+        >
+            <div className="flex flex-col text-center">
+                <div className="font-bebasNeue font-bold lg:text-8xl text-5xl text-bg50">Blue Prospect Studio</div>
+                <div className="text-bg050 text-lg lg:pb-4 pb-2">
+                    Crafting Stories, Capturing Moments: Your Vision, Our Passion.
+                </div>
                     <div>
                         <Link href=''>
                             <button
                                 onClick={toggle}
-                                className="bg-yellow900 hover:bg-yellow600 hover:text-bg100 text-xs text-bg100 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-6">
+                                className="bg-tan.900 hover:bg-tan.400 hover:text-bg100 text-xs text-gray.800 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-6">
                                 Contact us
                             </button>
                         </Link>
                     </div>
                 </div>
-            </div>
         </section>
         <section>
             <Modal

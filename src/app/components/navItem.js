@@ -9,9 +9,9 @@ export default function NavItem (props) {
     const pathname = usePathname();
 
     return (
-        <div className="pb-3 flex flex-row items-center lg:pb-0">
+        <div className="pb-3 flex flex-row items-center lg:pb-0 ">
             <Link href={props.path}>
-                <span className={`${pathname.startsWith(props.path)  ? 'text-yellow300' : ''} md:mx-3 pt-6 lg:py-0 text-xs font-regular uppercase hover:text-yellow300 text-blue100`}>{props.label}</span>
+                <span className={`${pathname.startsWith(props.path)  ? 'text-yellow300' : ''} font-roboto md:mx-3 pt-6 lg:py-0 text-xs  uppercase hover:text-yellow300 text-blue100`}>{props.label}</span>
             </Link>
         </div>
     )

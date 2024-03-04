@@ -15,9 +15,9 @@ export default function Quote(props) {
                 .map(filteredItem => (
                     <div
                         key={filteredItem.id}
-                        className="md:px-12 px-6 pt-24 ">
+                        className="md:px-12 px-6 py-12 pt-20 bg-white.100 ">
 
-                            <section className="flex flex-col justify-center items-center lg:px-0 p-6 relative lg:mx-auto lg:max-w-8xl border-2 border-bg400 bg-bg500">
+                            <section className="flex flex-col justify-center items-center lg:px-0 p-6 relative lg:mx-auto lg:max-w-7xl border-2 border-gray.200 ">
                                 <div className='flex flex-shrink-0 absolute -top-10 '>
                                     <img
                                         src={filteredItem.src}
@@ -27,9 +27,9 @@ export default function Quote(props) {
                                     />
                                 </div>
                                 <div className="lg:p-12 py-6">
-                                <div className='font-raleway text-4xl text-bg100 py-4 text-center'>What our customers are saying</div>
-                                <div className="text-center text-bg100 text-lg">&quot;{filteredItem.text}&quot;</div>
-                                <div className="text-center text-bg200 pt-3"> - {filteredItem.author}, {filteredItem.title}</div>
+                                <div className='font-raleway text-4xl text-gray.800 py-4 text-center'>What our customers are saying</div>
+                                <div className="text-center text-gray.800 text-lg">&quot;{filteredItem.text}&quot;</div>
+                                <div className="text-center text-gray.800 pt-3"> - {filteredItem.author}, {filteredItem.title}</div>
                             </div>
                         </section>
                     </div>

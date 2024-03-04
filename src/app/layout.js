@@ -31,7 +31,7 @@ export const bebasNeue = Bebas_Neue({
 
 export const metadata = {
   title: 'Blue Prospect Studio',
-  description: 'Video production studio',
+  description: 'Digital content studio',
 }
 
 export default function RootLayout({ children }) {

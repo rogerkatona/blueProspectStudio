@@ -16,8 +16,8 @@ export default function Header() {
     const {isShowing, toggle} = useModal();
 
     return (
-        <header className="bg-bg500 sticky top-0">
-            <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-8xl py-6 xl:px-0 md:px-12 px-6">
+        <header className="bg-gray.800 sticky top-0 z-20 drop-shadow-md">
+            <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl py-4 xl:px-0 md:px-8 px-6">
             <section>
                     <Link href='/'>
                         <div>
@@ -41,7 +41,7 @@ export default function Header() {
                             <svg
                                 className='w-6 h-6 '
                                 fill='none'
-                                stroke='#424548'
+                                stroke='#fff'
                                 viewBox='0 0 24 24'
                                 xmlns='http://www.w3.org/2000/svg'
                             >
@@ -54,12 +54,12 @@ export default function Header() {
                             </svg>
                         </button>
                     </section>
-                    <section className={`${active ? '' : 'hidden'} lg:flex lg:flex-row lg:my-0 my-4`}>
+                    <section className={`${active ? '' : 'hidden'} lg:flex lg:flex-row lg:my-0 my-2`}>
                             <NavBar navItems={navItems}/>
                              <Link href=''>
                                  <button
                                      onClick={toggle}
-                                     className="bg-yellow900 hover:bg-yellow600 hover:text-bg100 text-xs text-bg100 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-6">
+                                     className="bg-tan.900 hover:bg-tan.500 hover:text-bg100 text-xs text-gray.800 uppercase px-4 py-2 rounded-lg md:ml-3 md:mt-0 mt-2">
                                      Contact us
                                  </button>
                             </Link>

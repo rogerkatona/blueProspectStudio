@@ -16,7 +16,7 @@ export default function FeatureIndex(props) {
 
                         <section
                             key={filteredItem.id}
-                            className="md:px-12 px-6 pt-24 bg-bg500">
+                            className="md:px-12 px-6 py-16 bg-gray ">
 
                             <div className={`flex flex-col max-w-8xl mx-auto ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                                 <div className=' '>
@@ -28,34 +28,34 @@ export default function FeatureIndex(props) {
                                 </div>
                                 <div className={`lg:pt-0 pt-12 ${filteredItem.featuredID % 2 !== 0  ? 'lg:pl-6' : 'lg:pr-6'}`}>
                                     <div className="">
-                                        <div className='text-yellow500'>
+                                        <div className='text-raspberry'>
                                             <Link href={filteredItem.featuredHREF}>
                                                 <span className='hover:underline uppercase text-xs'>{filteredItem.featuredURL}</span>
                                             </Link>
                                         </div>
-                                        <div className='font-bebasNeue text-3xl text-bg300'>
+                                        <div className='font-bebasNeue text-3xl text-raspberryDark'>
                                             {filteredItem.featuredHeader}
                                         </div>
-                                        <div className='font-raleway text-4xl text-bg100 py-4'>
+                                        <div className='font-raleway text-4xl text-raspberryBlack py-4'>
                                             {filteredItem.title}
                                         </div>
-                                        <div className="uppercase text-xs text-bg300">
+                                        <div className="uppercase text-xs text-raspberryDark">
                                             <Date dateString={filteredItem.date} />
                                         </div>
-                                        <div className='text-bg200 text-lg pb-6'>{filteredItem.description}</div>
+                                        <div className='text-raspberryBlack text-lg pb-6'>{filteredItem.description}</div>
                                         <div className="flex flex-row">
                                             <div className={`${filteredItem.isButtonActive === 'true'  ? 'block' : 'hidden'}  pr-2`}>
                                                 <a
                                                     target={"_blank"}
                                                     href={filteredItem.featuredHREF}>
-                                                    <button className="hover:bg-yellow600 hover:text-bg500 text-xs text-yellow500 uppercase px-4 py-3 border border-yellow500 rounded-lg">
+                                                    <button className="hover:bg-raspberryBlack hover:text-sand text-xs text-raspberryBlack uppercase px-4 py-3 border border-raspberryBlack rounded-lg">
                                                         {filteredItem.featuredButtonLabel}
                                                     </button>
                                                 </a>
                                             </div>
                                             <div className="">
                                                 <Link href={filteredItem.buttonHref}>
-                                                    <button className="hover:bg-yellow600 hover:text-bg500 text-xs text-yellow500 uppercase px-4 py-3 border border-yellow500 rounded-lg">
+                                                    <button className="hover:bg-raspberryBlack hover:text-sand text-xs text-raspberryBlack uppercase px-4 py-3 border border-raspberryBlack rounded-lg">
                                                         {filteredItem.buttonText}
                                                     </button>
                                                 </Link>
