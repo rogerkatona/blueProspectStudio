@@ -1,10 +1,10 @@
 const promoItems = [
     {
         id:0,
-        headline: "Welcome to BP Studio!",
+        headline: "Welcome to BP",
         title: '',
         source: "",
-        text: "At our dynamic studio, we excel in creating digital content that captivates. Join our roster of satisfied clients and let's share with the world your unique story about your truly exceptional company.",
+        text: "Where cutting-edge technology meets intelligent design to forge engaging partnerships. Here, AI innovation is at the heart of what we do, making us your strategic partner in navigating the fast-changing world with modern, forward-thinking solutions.",
         actionText: "",
         buttonLabel: '',
     },

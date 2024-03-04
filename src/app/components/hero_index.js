@@ -27,14 +27,14 @@ export default function HeroIndex({ children, home }) {
 
             <div className="flex flex-col text-center z-10">
                 <div className="font-bebasNeue font-bold lg:text-8xl text-5xl text-bg50">Blue Prospect Studio</div>
-                <div className="text-bg050 text-lg lg:pb-4 pb-2">
+                <div className="text-gray.300 text-lg lg:pb-4 pb-2">
                     Crafting Stories, Capturing Moments: Your Vision, Our Passion.
                 </div>
                     <div>
                         <Link href=''>
                             <button
                                 onClick={toggle}
-                                className="bg-tan.900 hover:bg-tan.400 hover:text-bg100 text-xs text-gray.800 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-6">
+                                className="bg-sand hover:bg-sandLight hover:text-bg100 text-xs text-gray.800 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-6">
                                 Contact us
                             </button>
                         </Link>

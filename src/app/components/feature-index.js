@@ -26,23 +26,23 @@ export default function FeatureIndex(props) {
                                         alt={'Featured Article'}
                                     />
                                 </div>
-                                <div className={`lg:pt-0 pt-12 ${filteredItem.featuredID % 2 !== 0  ? 'lg:pl-6' : 'lg:pr-6'}`}>
+                                <div className={`lg:pt-0 pt-4 ${filteredItem.featuredID % 2 !== 0  ? 'lg:pl-6' : 'lg:pr-6'}`}>
                                     <div className="">
-                                        <div className='text-raspberry'>
+                                        <div className='text-gray.500'>
                                             <Link href={filteredItem.featuredHREF}>
                                                 <span className='hover:underline uppercase text-xs'>{filteredItem.featuredURL}</span>
                                             </Link>
                                         </div>
-                                        <div className='font-bebasNeue text-3xl text-raspberryDark'>
+                                        <div className='font-bebasNeue text-2xl text-gray.600'>
                                             {filteredItem.featuredHeader}
                                         </div>
-                                        <div className='font-raleway text-4xl text-raspberryBlack py-4'>
+                                        <div className='font-raleway text-4xl text-gray.900 py-2'>
                                             {filteredItem.title}
                                         </div>
-                                        <div className="uppercase text-xs text-raspberryDark">
+                                        <div className="uppercase text-xs text-gray.400 pb-1">
                                             <Date dateString={filteredItem.date} />
                                         </div>
-                                        <div className='text-raspberryBlack text-lg pb-6'>{filteredItem.description}</div>
+                                        <div className='text-gray.500 text-lg pb-6'>{filteredItem.description}</div>
                                         <div className="flex flex-row">
                                             <div className={`${filteredItem.isButtonActive === 'true'  ? 'block' : 'hidden'}  pr-2`}>
                                                 <a

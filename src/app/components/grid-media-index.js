@@ -7,21 +7,21 @@ import Link from "next/link";
 export default function GridMediaIndex(props) {
 
     return (
-        <div className="md:px-12 px-6 pt-12 bg-white.100">
+        <div className="md:px-12 px-6 pt-12 bg-white.100 pb-12">
             <section>
                 <div className="flex flex-col max-w-7xl mx-auto">
-                    <div className='text-raspberryBlack'>
+                    <div className='text-gray.500'>
                         <Link href="../portfolio">
-                            <span className='hover:underline uppercase text-xs text-raspberryBlack'>/ Portfolio</span>
+                            <span className='hover:underline uppercase text-xs text-gray.500'>/ Portfolio</span>
                         </Link>
                     </div>
-                    <div className='font-bebasNeue text-3xl  text-raspberryBlack'>
+                    <div className='font-bebasNeue text-3xl  text-gray.600'>
                         Recent work
                     </div>
-                    <div className='font-raleway text-4xl  py-4  text-raspberryBlack'>
+                    <div className='font-raleway text-4xl  py-4  text-gray.900'>
                         Take a look at some of our recent work
                     </div>
-                    <div className='text-raspberryBlack'>Our recent projects showcase a diverse portfolio, ranging from visually stunning corporate brand narratives to engaging promotional content, where our team seamlessly blends creative storytelling, cutting-edge technology, and professional execution to bring our clients' visions to life.</div>
+                    <div className='text-gray.500'>Our recent projects showcase a diverse portfolio, ranging from visually stunning corporate brand narratives to engaging promotional content, where our team seamlessly blends creative storytelling, cutting-edge technology, and professional execution to bring our clients' visions to life.</div>
                 </div>
             </section>
             <section>

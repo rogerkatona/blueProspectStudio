@@ -59,7 +59,7 @@ export default function Header() {
                              <Link href=''>
                                  <button
                                      onClick={toggle}
-                                     className="bg-tan.900 hover:bg-tan.500 hover:text-bg100 text-xs text-gray.800 uppercase px-4 py-2 rounded-lg md:ml-3 md:mt-0 mt-2">
+                                     className="bg-sand hover:bg-sandLight hover:text-bg100 text-xs text-gray.800 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-2">
                                      Contact us
                                  </button>
                             </Link>

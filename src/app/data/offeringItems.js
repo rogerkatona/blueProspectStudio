@@ -8,8 +8,8 @@ const offeringItems = [
         alt: "UI/UX services for existing and new digital products",
         list: [
                 "User-centered web design",
-                "Responsive design",
-                "Performance Optimization",
+                "Responsive design & performance optimization",
+                "front-end development, and back-end integration",
         ]
     },
     {
@@ -20,9 +20,9 @@ const offeringItems = [
         src: "/image/icon/services-dev.svg",
         alt: 'Opening Keynote',
         list: [
-                "Pre-production planning",
-                "High-Quality video/audio production",
-                "Case studies, customer interviews",
+                "Pre-production planning & storyboards",
+                "Case studies, client interviews, digital content",
+                "Expert video editing, and post-production",
             ]
     },
     {
@@ -35,7 +35,7 @@ const offeringItems = [
         list: [
             "High quality images & videos",
             "Consistent branding across all platforms",
-            "Graphic design, animations, infographics",
+            "Graphic design, animation, and infographics",
         ]
     },
     {

@@ -13,7 +13,7 @@ export default function Footer() {
     const {isShowing, toggle} = useModal();
 
     return (
-        <footer className="flex flex-col justify-center md:items-center md:px-0 px-6 bg-bg800 py-24 mt-24">
+        <footer className="flex flex-col justify-center md:items-center md:px-0 px-6 bg-bg800  py-24">
          <section>
             <div>
                 <div className="flex flex-row items-center pb-4 ">
