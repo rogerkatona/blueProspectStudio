@@ -9,7 +9,7 @@ export default function GridMediaIndex(props) {
     return (
         <div className="md:px-12 px-6 pt-12 bg-white.100 pb-12">
             <section>
-                <div className="flex flex-col max-w-8xl mx-auto">
+                <div className="flex flex-col max-w-7xl mx-auto">
                     <div className='text-gray.500'>
                         <Link href="../portfolio">
                             <span className='hover:underline uppercase text-xs text-gray.500'>/ Portfolio</span>
@@ -26,7 +26,7 @@ export default function GridMediaIndex(props) {
             </section>
             <section>
                 <div  className="flex pt-8 ">
-                    <div className="grid xl:grid-cols-3 gap-2 md:grid-cols-2 grid-cols-1 max-w-8xl mx-auto">
+                    <div className="grid xl:grid-cols-3 gap-2 md:grid-cols-2 grid-cols-1 max-w-7xl mx-auto">
                         {gridItems
                             .filter(filteredItem => filteredItem.type === props.type)
                             .sort((a, b) => {

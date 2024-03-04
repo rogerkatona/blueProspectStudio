@@ -9,9 +9,9 @@ export default function Offerings(props) {
 
     return (
         <>
-        <section className="py-16 bg-white.100 px-6">
+        <section className="py-16 bg-white.100 md:px-12 px-6 ">
             <div className='font-bebasNeue text-4xl uppercase text-gray.800 flex flex-row justify-center pb-4'>What we offer</div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto">
                     {filteredItem.map(filteredItem => (
                         <div key={filteredItem.id} className="bg-gray p-6">
                                 <div className="">

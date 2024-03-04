@@ -18,7 +18,7 @@ export default function FeatureIndex(props) {
                             key={filteredItem.id}
                             className="md:px-12 px-6 py-16 bg-gray ">
 
-                            <div className={`flex flex-col max-w-8xl mx-auto ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
+                            <div className={`flex flex-col max-w-7xl mx-auto ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                                 <div className=' '>
                                     <img
                                         src={filteredItem.src}
