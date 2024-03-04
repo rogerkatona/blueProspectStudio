@@ -4,7 +4,7 @@ const quoteItems = [
         text: "This was the best experience I have had working with a video production crew.  They have a sophistication on how they go about their work.  I am very impressed with the experience and the result.  I highly recommend them the next time you need video production work.",
         author: "Tim Ronan",
         title: 'McMahon Truck Centers',
-        src: '/image/quote-image.png',
+        src: '/image/icon/quote.svg',
     },
     {
         id:1,
