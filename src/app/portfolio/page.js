@@ -7,13 +7,19 @@ import Feature from "@/app/components/feature";
 
 export default function Portfolio() {
     return (
-        <section>
-            <header className="bg-hero-portfolio bg-cover bg-right bg-no-repeat">
+        <section className="mx-auto pb-12 bg-white.100">
+
+            <div
+                className="flex flex-row justify-center items-center bg-cover bg-no-repeat h-80 sm:h-86 md:h-90 lg:h-97 xl:h-112"
+                style={{
+                    backgroundImage: `url('/image/background/30.png')`,
+                }}
+            >
                 <Hero id={1}/>
-            </header>
+            </div>
             <Feature  id={0} type="work"/>
             <Feature id={1}/>
-            <Quote id={0}/>
+            <Quote id={1}/>
             <GridMedia type="media"/>
 
         </section>

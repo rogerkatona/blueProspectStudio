@@ -8,7 +8,7 @@ const heroItems = [
     {
         id:2,
         label: "Services",
-        description: "We offer comprehensive video production services, seamlessly blending creative storytelling, cutting-edge technology, and professional execution to bring your vision to life and captivate audiences across diverse industries.",
+        description: "We specialize in offering a holistic digital experience through our core services: bespoke web design and development, dynamic video production, and the creation of impactful digital assets designed to captivate and engage your audience.",
         background: "dark",
     },
     {

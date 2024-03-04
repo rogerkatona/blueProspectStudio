@@ -2,7 +2,7 @@ const offeringItems = [
     {
         id: 0,
         type: "services",
-        label: "Web design & develop",
+        label: "Web design & development",
         description: "Elevating digital experiences, one pixel at a time.",
         src: "/image/icon/services-design.svg",
         alt: "UI/UX services for existing and new digital products",
@@ -28,7 +28,7 @@ const offeringItems = [
     {
         id: 2,
         type: "services",
-        label: "Social media content",
+        label: "Digital & social media content",
         description: "Spark conversations, ignite connections: your story, shared digitally.",
         src: "/image/icon/services-design.svg",
         alt: 'Development Services Icon',
