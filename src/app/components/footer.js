@@ -9,8 +9,7 @@ import SocialMediaItem from "@/app/components/social-media-items";
 import socialMediaItems from "@/app/data/socialMediaItems";
 
 
-export default function Footer() {
-    const {isShowing, toggle} = useModal();
+export default function Footer({toggleModal}) {
 
     return (
         <footer className="flex flex-col justify-center md:items-center md:px-0 px-6 bg-bg800  py-24">
@@ -39,20 +38,12 @@ export default function Footer() {
                 </div>
                 <Link href=''>
                     <button
-                        onClick={toggle}
+                        onClick={toggleModal}
                         className="hover:bg-yellow600 hover:text-bg500 text-xs text-yellow500 uppercase px-4 py-3 border border-yellow500 rounded-lg">
                         Contact us
                     </button>
                 </Link>
-
             </div>
-
-            <section>
-                <Modal
-                    isShowing={isShowing}
-                    onClose={toggle}
-                />
-            </section>
         </footer>
     )
 }

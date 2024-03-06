@@ -3,15 +3,11 @@ import NavBar from "@/app/components/navBar";
 import navItems from "@/app/data/navItems";
 import Modal from "@/app/components/modal";
 import {useState} from "react";
-import useModal from "@/app/lib/useModal";
 
-export default function HeroIndex({ children, home }) {
+export default function HeroIndex({ toggleModal }) {
 
     const [active, setActive] = useState(false)
     const handleClick = () => setActive(!active)
-
-    const {isShowing, toggle} = useModal();
-
 
     return (
         <>
@@ -33,19 +29,13 @@ export default function HeroIndex({ children, home }) {
                     <div>
                         <Link href=''>
                             <button
-                                onClick={toggle}
+                                onClick={toggleModal}
                                 className="bg-sand hover:bg-sandLight hover:text-bg100 text-xs text-gray.800 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-6">
                                 Contact us
                             </button>
                         </Link>
                     </div>
                 </div>
-        </section>
-        <section>
-            <Modal
-                isShowing={isShowing}
-                onClose={toggle}
-            />
         </section>
     </>
     )

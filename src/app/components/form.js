@@ -97,7 +97,7 @@ export const Form = ({ initialRef}) => {
                     </label>
                     <input
                         ref={initialRef}
-                        className="text-bg500 border py-3 px-4 mb-4"
+                        className="text-gray.800 border py-3 px-4 mb-4"
                         placeholder="Enter your name"
                         value={formState.name}
                         onChange={(e) =>
@@ -110,7 +110,7 @@ export const Form = ({ initialRef}) => {
                         Email*
                     </label>
                     <input
-                        className="text-bg500 border py-3 px-4 mb-4"
+                        className="text-gray.800 border py-3 px-4 mb-4"
                         placeholder="yourname@email.com"
                         type="email"
                         value={formState.email}
@@ -127,7 +127,7 @@ export const Form = ({ initialRef}) => {
                         </label>
                         <div>
                         <textarea
-                            className="text-bg500  w-full border border-blue800 py-3 px-4 mb-4 "
+                            className="text-gray.800  w-full border border-blue800 py-3 px-4 mb-4 "
                             rows="3"
                             value={formState.contactMessage}
                             onChange={(e) =>
