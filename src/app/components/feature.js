@@ -10,6 +10,7 @@ export default function Feature(props) {
 
     return (
         <>
+            <section className="pb-6">
                 {filteredItem
                     .filter(filteredItem => filteredItem.type === props.type)
                     .map(filteredItem => (
@@ -51,6 +52,7 @@ export default function Feature(props) {
                             </div>
                         </section>
                     ))}
+            </section>
         </>
     )
 }

@@ -1,13 +1,14 @@
-import serviceItems from "../data/serviceItems";
+import aboutItems from "../data/aboutItems";
 
 export default function AboutItem(props) {
 
-    let filteredItem = serviceItems.filter(function (item){
+    let filteredItem = aboutItems.filter(function (item){
         return item.type === props.type
     });
 
     return (
         <>
+            <section className="pb-12">
             {filteredItem
                 .filter(filteredItem => filteredItem.type === props.type)
                 .map(filteredItem => (
@@ -17,14 +18,13 @@ export default function AboutItem(props) {
                         className="md:px-12 px-6 pt-12 bg-white.100">
 
                         <div className={`flex flex-col max-w-7xl mx-auto ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
-                            <div className=' '>
+                            <div className='lg:shrink-0  lg:w-1/2'>
                                 <img
                                     src={filteredItem.src}
-                                    width={1750}
                                     alt={'Featured Article'}
                                 />
                             </div>
-                            <div className={`lg:pt-0 pt-12 ${filteredItem.featuredID % 2 !== 0  ? 'lg:pl-6' : 'lg:pr-6'}`}>
+                            <div className={`lg:pt-0 pt-6 ${filteredItem.featuredID % 2 !== 0  ? 'lg:pl-6' : 'lg:pr-6'}`}>
                                 <div className="">
                                     <div className='font-bebasNeue text-4xl text-gray.600  border-b border-bg-bg50 mb-4'>{filteredItem.number}</div>
 
@@ -49,6 +49,7 @@ export default function AboutItem(props) {
                         </div>
                     </section>
                 ))}
+            </section>
         </>
     )
 }

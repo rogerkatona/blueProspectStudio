@@ -26,7 +26,7 @@ export default function Service(props) {
                                             alt={filteredItem.alt}
                                         />
                                     </div>
-                                    <div className={`${filteredItem.id % 2 === 0  ? 'lg:pr-12 lg:pt-0 pt-12' : 'lg:pl-12 lg:pt-0 pt-12'} lg:w-4/5 w-full `}>
+                                    <div className={`${filteredItem.id % 2 === 0  ? 'lg:pr-12 lg:pt-0 pt-6' : 'lg:pl-12 lg:pt-0 pt-6'} lg:w-4/5 w-full `}>
                                         <div className='font-bebasNeue text-4xl text-gray.500 border-b'>{filteredItem.number}</div>
                                         <div className='font-raleway text-4xl text-gray.900 pt-4'>{filteredItem.title}</div>
                                         <ul className="text-left list-disc pt-2 text-gray.500 pl-4">
