@@ -3,7 +3,7 @@ export default function ClientLogos({ children, type }) {
     return (
         <section className="bg-white.100">
             <div className="mx-auto max-w-7xl xl:px-0 md:px-12 px-6  py-12 ">
-                <section className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1 items-center gap-10 justify-items-center">
+                <section className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 items-center gap-10 justify-items-center">
                     <div>
                         <img
                             src="/image/logo/florida-blue.png"
@@ -44,14 +44,14 @@ export default function ClientLogos({ children, type }) {
                             alt={'mobymax'}
                         />
                     </div>
-                    <div>
+{/*                    <div>
                         <img
                             src="/image/logo/websense.png"
                             height={27}
                             width={156}
                             alt={'websense'}
                         />
-                    </div>
+                    </div>*/}
                 </section>
             </div>
         </section>
