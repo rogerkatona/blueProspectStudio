@@ -15,7 +15,6 @@ export default function Home() {
         <ClientLogos/>
         <Promo id={0}/>
         <Offerings type="services"/>
-
         <FeatureIndex  featured="true" type="work"/>
         <Quote id={0}/>
         <FeatureIndex  featured="true" type="process"/>

@@ -7,12 +7,12 @@ isFeatured: 'false'
 imageSource: '/image/blog/50.png'
 tag: '#AIinWebDesign #FutureOfDesign #Innovation '
 alt: 'Top 4 foundational Flexbox properties'
-author: 'Roger Katona'
-authorDescription: 'An innovative digital content creator with a passion for storytelling.'
-authorImageSource: '/image/author_rogerkatona.png'
+author: 'Roger Katona / AI'
+authorDescription: 'An innovative digital content creator, AI collaborator with a passion for storytelling.'
+authorImageSource: '/image/blog/blog-author.jpg'
 ogURL: 'https://www.blueprospect.com/blog/ai-web-design-future'
 ogType: 'blog'
-ogImage: 'https://www.blueprospect.com/image/bannerSM-flexbox.png'
+ogImage: 'https://www.blueprospect.com/image/blog/50.jpg'
 ---
 
 # The Future of AI in Web Design

@@ -41,8 +41,8 @@ export default function PostPage() {
                                             <img
                                                 className=""
                                                 src={post.authorImageSource}
-                                                height={80}
-                                                width={80}
+                                                height={100}
+                                                width={150}
                                                 alt="author image - Roger Katona"
                                             />
                                         </div>

@@ -1,4 +1,5 @@
 import blogItems from "../data/blogItems";
+import Date from "@/app/components/date";
 
 export default function BlogItem(props) {
 
@@ -10,7 +11,13 @@ export default function BlogItem(props) {
                 <section className="flex flex-col md:px-12 px-6 bg-white.100 pb-12">
                     {
                         filteredItem
-                            .filter(item => item.featured === "false")
+                            .sort((a, b) => {
+                                if (a.date < b.date) {
+                                    return 1
+                                } else {
+                                    return -1
+                                }
+                            })
                             .map(item => (
                                 <section key={item.id}>
                                     <div
@@ -27,6 +34,9 @@ export default function BlogItem(props) {
                                         <div className={`${item.id % 2 === 0 ? 'lg:pr-12 lg:pt-0 pt-12' : 'lg:pl-12 lg:pt-0 pt-12'} lg:w-4/5 w-full `}>
                                             <div className='font-bebasNeue text-4xl text-gray.500 border-b'>{item.number}</div>
                                             <div className='font-raleway text-4xl text-gray.900 pt-4'>{item.title}</div>
+                                            <div className='text-gray.500 uppercase text-xs pt-2 '>
+                                                <Date dateString={item.date} />
+                                            </div>
                                             <div className='font-raleway text-gray.500 py-4'>{item.description}</div>
                                             <div className={`${item.isButtonActive === 'true' ? 'block' : 'hidden'} pt-0`}>
                                                 <a
