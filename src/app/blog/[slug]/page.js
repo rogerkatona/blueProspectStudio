@@ -37,7 +37,7 @@ export default function PostPage() {
 
                                 <section className='flex xl:flex-row flex-col justify-between '>
                                     <div className='flex flex-row items-center'>
-                                        <div className='pr-4 shrink-0'>
+                                        <div className='pr-4 shrink-0 md:block hidden'>
                                             <img
                                                 className=""
                                                 src={post.authorImageSource}
