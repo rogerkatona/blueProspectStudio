@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function GridMedia(props) {
 
     return (
-        <div className="md:px-12 px-6 ">
+        <div className="md:px-12 px-6 pt-12 ">
             <section  className="max-w-7xl mx-auto">
                 <div>
                     <div className='font-raleway text-4xl text-gray.800'>

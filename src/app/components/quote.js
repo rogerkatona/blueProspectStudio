@@ -11,7 +11,7 @@ export default function Quote(props) {
     return (
 
         <>
-            <section className="py-12">
+            <section className="">
             {filteredItem
                 .map(filteredItem => (
                     <div

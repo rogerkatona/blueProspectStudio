@@ -25,3 +25,29 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+h1 {
+  @apply font-bebasNeue text-6xl text-gray.800 pb-2;
+}
+h2 {
+  @apply text-2xl md:mt-10 my-2 text-gray.800 font-raleway;
+}
+h3 {
+  @apply text-4xl font-raleway text-gray.700;
+}
+h4 {
+  @apply text-sm uppercase font-bold;
+}
+hr {
+  @apply text-gray.500 my-4;
+}
+p {
+  @apply leading-loose text-justify md:text-left mb-4 text-gray.500;
+}
+span {
+  @apply leading-loose text-justify md:text-left mb-3 text-gray.500;
+}
+
+p a {
+  @apply text-gray.700;
+}

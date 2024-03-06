@@ -19,6 +19,12 @@ const heroItems = [
     },
     {
         id:4,
+        label: "Blog",
+        description: "Explore our website's blog for the latest insights and information, offering you the benefits of staying informed about cutting-edge trends, practical advice, and innovative solutions that can empower your knowledge and decision-making in today's fast-paced world.",
+        background: "dark",
+    },
+    {
+        id:5,
         label: "About",
         description: "Welcome to Blue Prospect Studio, where passion meets professionalism. We are a creative powerhouse dedicated to transforming visions into captivating visual stories. Our commitment to excellence and client satisfaction sets us apart in the world of video production.",
         background: "dark",

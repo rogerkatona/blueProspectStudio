@@ -1,26 +1,24 @@
 "use client"; // This is a client component 👈🏽
 
+import Promo from "@/app/components/promo";
 import Hero from "@/app/components/hero";
-import AboutItem from "@/app/components/about-item";
-import Quote from "@/app/components/quote";
+import BlogItem from "@/app/components/blogItem";
 
-
-export default function About() {
+export default function Blog() {
     return (
         <>
-            <section className="mx-auto pb-12 bg-white.100">
+            <section className="mx-auto pb-12">
 
                 <div
                     className="flex flex-row justify-center items-center bg-cover bg-no-repeat h-80 sm:h-86 md:h-90 lg:h-97 xl:h-112"
                     style={{
-                        backgroundImage: `url('/image/background/31.png')`,
+                        backgroundImage: `url('/image/background/30.png')`,
                     }}
                 >
-                    <Hero id={5}/>
+                    <Hero id={4}/>
                 </div>
-            <AboutItem type="about"/>
-            <Quote id={1}/>
-
+                <BlogItem type="blog"/>
+                <Promo id={1}/>
             </section>
         </>
     )

@@ -13,6 +13,10 @@ const navItems = [
         path: "/portfolio",
     },
     {
+        label: "Blog",
+        path: "/blog",
+    },
+    {
         label: "About",
         path: "/about",
     }

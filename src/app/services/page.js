@@ -1,6 +1,5 @@
 "use client"; // This is a client component 👈🏽
 
-import Quote from "@/app/components/quote";
 import Promo from "@/app/components/promo";
 import Hero from "@/app/components/hero";
 import Service from "@/app/components/service";
