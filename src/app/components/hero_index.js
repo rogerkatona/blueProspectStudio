@@ -1,7 +1,4 @@
 import Link from "next/link";
-import NavBar from "@/app/components/navBar";
-import navItems from "@/app/data/navItems";
-import Modal from "@/app/components/modal";
 import {useState} from "react";
 
 export default function HeroIndex({ toggleModal }) {
@@ -14,12 +11,10 @@ export default function HeroIndex({ toggleModal }) {
         <section
             className="flex flex-row justify-center items-center relative overflow-hidden bg-gray-900 h-screen ">
 
-                <video autoPlay muted loop className="absolute inset-0 object-cover w-full h-full">
-                    <source src="/image/background-hero-index.mp4" type="video/mp4"/>
-                        Your browser does not support the video tag.
-                </video>
-
-
+            <video autoPlay muted loop playsInline className="absolute inset-0 object-cover w-full h-full" poster="/image/background-hero-index.gif">
+                <source src="/image/background-hero-index.mp4" type="video/mp4"/>
+                Your browser does not support the video tag.
+            </video>
 
             <div className="flex flex-col text-center z-10">
                 <div className="font-bebasNeue font-bold lg:text-8xl text-5xl text-bg50">Blue Prospect Studio</div>
