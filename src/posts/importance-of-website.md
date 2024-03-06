@@ -40,5 +40,5 @@ Yet, the path is not without its hurdles. Websites can be cumbersome beasts, dem
 
 The time is now. Consider your website not as a task on a list, but as a vital organ of your business. It demands attention, investment, and a commitment to freshness and engagement that mirrors the liveliness of your social media presence.
 
-In the spirit of Hemingway, let's be direct: Update your website. Keep it alive. Let it breathe the very essence of your business into the vast digital expanse. Your clients, current and future, are waiting to be captivated.
+Let's be direct: Update your website. Keep it alive. Let it breathe the very essence of your business into the vast digital expanse. Your clients, current and future, are waiting to be captivated.
 

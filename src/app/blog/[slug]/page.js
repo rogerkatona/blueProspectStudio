@@ -15,7 +15,7 @@ export default function PostPage() {
     const { data: post, error } = useSWR(slug ? `/api/posts/${slug}` : null, fetcher);
 
     if (error) return <div>Failed to load the post.</div>;
-    if (!post) return <div>Loading...</div>;
+    if (!post) return <div className="flex justify-center py-12">Loading...</div>;
 
     return (
         <article>
