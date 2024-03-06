@@ -30,8 +30,7 @@ export default function PostPage() {
                                 </div>
                                 <div className="text-gray.500 pt-2"> {post.description} </div>
                                 <div className="pt-2">
-                                    <span className="font-bold pr-2 text-gray.500">Tags:</span>
-                                    <span>{post.tag}</span>
+                                    <span className="md:text-base flex ">{post.tag}</span>
                                 </div>
                                 <hr/>
 
