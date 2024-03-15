@@ -4,7 +4,7 @@ date: "2024-03-05"
 type: "blog"
 description: 'Explore the future of web design with AI! Our latest blog unveils how AI is revolutionizing the way we create and experience the web, from personalized user experiences to automated design processes. Dive into the possibilities and join the conversation on shaping a more intuitive and inclusive digital future.'
 isFeatured: 'false'
-imageSource: '/image/blog/50.png'
+imageSource: '/image/blog/50.jpg'
 tag: '#AIinWebDesign #FutureOfDesign #Innovation '
 alt: 'Top 4 foundational Flexbox properties'
 author: 'Roger Katona / AI'

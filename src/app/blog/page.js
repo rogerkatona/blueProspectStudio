@@ -18,7 +18,7 @@ export default function Blog() {
                     <Hero id={4}/>
                 </div>
                 <BlogItem type="blog"/>
-                <Promo id={1}/>
+                <Promo id={2}/>
             </section>
         </>
     )
