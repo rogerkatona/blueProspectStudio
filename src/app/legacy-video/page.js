@@ -1,7 +1,7 @@
 "use client"; // This is a client component 👈🏽
 
 import Link from "next/link";
-import ContactOverlay from "@/app/components/contact-overlay";
+import ConsultationOverlay from "@/app/components/consultation-overlay";
 import {useState} from "react";
 
 export default function Legacy() {
@@ -183,7 +183,7 @@ export default function Legacy() {
             </section>
 
     </section>
-            <ContactOverlay isOverlayVisible={isOverlayVisible} toggleOverlay={toggleOverlay} />
+            <ConsultationOverlay isOverlayVisible={isOverlayVisible} toggleOverlay={toggleOverlay} />
         </>
     )
 }
