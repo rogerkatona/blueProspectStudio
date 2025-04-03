@@ -59,20 +59,27 @@ const ConsultationOverlay = ({ isOverlayVisible, toggleOverlay }) => {
                         </div>
 
                         <div className="pb-8">
-                            <div className="flex flex-col items-center text-center space-y-1">
-                <span className="text-gray.300 leading-snug text-center">
+                            <div className="flex flex-col items-center text-center space-y-1 text-xl">
+                <span className="text-gray.300 leading-snug text-center text-xl">
                   Have a story to tell or just want to talk ideas? We’re all ears. Use the form below to grab a time that works for you—we’ll take care of the rest.
-                </span>
-                                <span className="text-gray.300">
-                  Whether you're just curious or ready to roll, we're here to help you bring your vision to life.
                 </span>
                             </div>
                         </div>
 
                         {/* Calendly Inline Embed */}
+                        <div className="w-full max-w-3xl mx-auto text-center pb-6">
+                            <img
+                                src="/image/logo/logoSM-bp.png"
+                                alt="Blue Prospect"
+                                className="mx-auto h-24"
+                            />
+                            <h2 className="font-raleway text-xl text-gray.300 pt-2 m-0 -mb-16">
+                                Book your Legacy Video consultation
+                            </h2>
+                        </div>
                         <div
                             ref={calendlyContainerRef}
-                            className="calendly-inline-widget w-full max-w-3xl mx-auto"
+                            className="calendly-inline-widget w-full max-w-5xl mx-auto"
                             data-url="https://calendly.com/roger-katona-blueprospect/30min"
                             style={{ minWidth: '320px', height: '700px' }}
                         ></div>
