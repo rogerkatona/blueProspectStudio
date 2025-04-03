@@ -18,7 +18,7 @@ export default function About() {
                         backgroundPosition: 'center',
                     }}
                 >
-                    <div className="absolute z-0 inset-0 bg-legacy-sepia-700 bg-opacity-70"></div>
+                    <div className="absolute z-0 inset-0 bg-darkBlue.600 bg-opacity-70"></div>
                     <Hero id={5}/>
                 </div>
             <AboutItem type="about"/>

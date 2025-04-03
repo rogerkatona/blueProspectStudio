@@ -37,7 +37,7 @@ export default function Legacy() {
                     <Link href=''>
                         <button
                             onClick={toggleOverlay}
-                            className="bg-legacy-ivory-400 hover:bg-legacy-rose-700 hover:text-legacy-sepia-100 text-xs text-legacy-sepia-700 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-6">
+                            className="bg-legacy-ivory-400 hover:bg-legacy-rose-700 hover:text-legacy-sepia-100 text-xs text-legacy-sepia-700 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-6 font-bold">
                             Schedule a free consultation
                         </button>
                     </Link>

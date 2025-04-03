@@ -18,7 +18,7 @@ export default function Services() {
                     backgroundPosition: 'center',
                 }}
                 >
-                <div className="absolute z-0 inset-0 bg-legacy-sepia-800 bg-opacity-70"></div>
+                <div className="absolute z-0 inset-0 bg-darkBlue.600 bg-opacity-70"></div>
                 <Hero id={2}/>
                </div>
                 <Service type="service"/>
