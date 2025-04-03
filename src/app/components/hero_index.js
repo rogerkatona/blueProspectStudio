@@ -19,7 +19,7 @@ export default function HeroIndex({ toggleModal }) {
             {/* Overlay */}
             <div className="absolute inset-0 bg-darkBlue.600 bg-opacity-70"></div>
 
-            <div className="flex flex-col text-center z-10">
+            <div className="flex flex-col text-center z-10 animate-fadeInUp">
                 <h1 className="text-8xl md:text-7xl font-bold  text-legacy-wheat-50">
                     Stories That Stick.<br className="hidden md:block" /> Visuals That Speak.
                 </h1>
