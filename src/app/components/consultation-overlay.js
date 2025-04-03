@@ -72,7 +72,7 @@ const ConsultationOverlay = ({ isOverlayVisible, toggleOverlay }) => {
                         {/* Calendly Inline Embed */}
                         <div
                             ref={calendlyContainerRef}
-                            className="calendly-inline-widget mx-auto"
+                            className="calendly-inline-widget w-full max-w-3xl mx-auto"
                             data-url="https://calendly.com/roger-katona-blueprospect/30min"
                             style={{ minWidth: '320px', height: '700px' }}
                         ></div>
