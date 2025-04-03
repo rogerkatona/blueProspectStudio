@@ -8,7 +8,7 @@ const heroItems = [
     {
         id:2,
         label: "Services",
-        description: "We specialize in offering a holistic digital experience through our core services: bespoke web design and development, dynamic video production, and the creation of impactful digital assets designed to captivate and engage your audience.",
+        description: "We craft holistic digital experiences through custom web design, video production, and compelling digital assets that captivate and engage.",
         background: "dark",
     },
     {

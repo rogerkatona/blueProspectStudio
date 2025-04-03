@@ -29,7 +29,7 @@ export default function Quote(props) {
                                 </div>
                                 <div className="lg:p-12 py-6">
                                 <div className='font-raleway text-4xl text-gray.800 py-4 text-center'>What our customers are saying</div>
-                                <div className="text-center text-gray.500 text-lg">&quot;{filteredItem.text}&quot;</div>
+                                <div className="text-center text-gray.500 text-lg max-w-5xl">&quot;{filteredItem.text}&quot;</div>
                                 <div className="text-center text-gray.500 pt-3"> - {filteredItem.author}, {filteredItem.title}</div>
                             </div>
                         </section>

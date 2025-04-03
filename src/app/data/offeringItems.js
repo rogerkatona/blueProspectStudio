@@ -15,6 +15,19 @@ const offeringItems = [
     {
         id: 1,
         type: "services",
+        label: "Legacy Video",
+        description: "Virtual version of our workshop to elevate and inspire.",
+        src: "/image/icon/services-design.svg",
+        alt: 'Development Services Icon',
+        list: [
+            "Personal documentaries that preserve stories and voices",
+            "Beautifully filmed interviews capturing personality and wisdom",
+            "A timeless gift for your family and future generations",
+        ]
+    },
+    {
+        id: 3,
+        type: "services",
         label: "Video production",
         description: "Bringing your vision to life, with world class production.",
         src: "/image/icon/services-dev.svg",
@@ -39,7 +52,7 @@ const offeringItems = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         type: "workshops",
         label: "Virtual Workshop",
         description: "Virtual version of our workshop to elevate and inspire.",
@@ -49,19 +62,6 @@ const offeringItems = [
             "Frontend Development",
             "HTML/CSS/Javascript",
             "React Framework",
-        ]
-    },
-    {
-        id: 4,
-        type: "services",
-        label: "Legacy Videos",
-        description: "Virtual version of our workshop to elevate and inspire.",
-        src: "/image/icon/services-design.svg",
-        alt: 'Development Services Icon',
-        list: [
-            "Personal documentaries that preserve stories and voices",
-            "Beautifully filmed interviews capturing personality and wisdom",
-            "A timeless gift for your family and future generations",
         ]
     },
 ];

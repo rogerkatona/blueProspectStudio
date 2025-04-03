@@ -16,7 +16,7 @@ export default function Legacy() {
         <section className="mx-auto pb-12 bg-white.100">
 
             <section
-                className="relative bg-legacy-sepia-600 text-white h-screen80vh flex items-center justify-center"
+                className="relative bg-legacy-sepia-600 text-white h-screen90vh flex items-center justify-center"
                 style={{
                     backgroundImage: `url('/image/background/hero-legacy-video.jpg')`,
                     backgroundSize: 'cover',
@@ -28,10 +28,10 @@ export default function Legacy() {
 
                 {/* Content */}
                 <div className="relative z-10 max-w-3xl text-center px-4">
-                    <h1 className="text-8xl md:text-7xl font-bold mb-6 text-legacy-wheat-500">
+                    <h1 className="text-8xl md:text-7xl font-bold mb-4 text-legacy-wheat-500">
                         Preserve Their Story. <br className="hidden md:block" />Pass Down Their Wisdom.
                     </h1>
-                    <p className="md:text text-xl text-legacy-rose-500 mb-8 text-center leading-normal">
+                    <p className="md:text text-xl text-legacy-rose-500 mb-7 text-center leading-normal">
                         Legacy Videos are personal documentaries that capture the voice, memories, and essence of someone you love—so their story lives on for generations.
                     </p>
                     <Link href=''>
@@ -44,7 +44,7 @@ export default function Legacy() {
                 </div>
             </section>
 
-            <section className="py-20 px-6 bg-legacy-ivory-200">
+            <section className="py-16 px-6 bg-legacy-ivory-200">
                 <div className="max-w-4xl mx-auto">
                     <h2 className="text-3xl font-semibold mb-6 text-center">Some Stories Should Never Be Forgotten</h2>
                     <p className="text-lg leading-relaxed">There’s something sacred about hearing a loved one tell their story in their own voice—the laughter, the pauses, the way their eyes light up with a memory. Legacy Videos are more than interviews; they’re time capsules of presence, personality, and love.</p>
@@ -52,7 +52,7 @@ export default function Legacy() {
                 </div>
             </section>
 
-            <section className="bg-legacy-ivory-50 py-20 px-6">
+            <section className="bg-legacy-ivory-50 py-16 px-6">
                 <div className="max-w-4xl mx-auto">
                     <h2 className="text-3xl font-semibold mb-10 text-center">How It Works</h2>
                     <div className="space-y-8">
@@ -73,14 +73,14 @@ export default function Legacy() {
             </section>
 
 
-            <section className="py-20 px-6 bg-legacy-ivory-200">
+            <section className="py-16 px-6 bg-legacy-ivory-200">
                 <div className="max-w-4xl mx-auto">
                     <h2 className="text-3xl font-semibold mb-10 text-center">Legacy Video Packages & Pricing</h2>
                     <p className="text-lg text-center mb-16">
                         More than just a video—this is a timeless gift, a conversation across generations, a way to keep the heart and soul of a loved one alive forever.
                     </p>
 
-                    <div className="space-y-16">
+                    <div className="space-y-12">
 
                         <div className="bg-legacy-ivory-50 border p-8 rounded-lg shadow">
                             <h3 className="text-2xl font-bold mb-2">The Essential Legacy Film</h3>
@@ -127,7 +127,7 @@ export default function Legacy() {
                         </div>
                     </div>
 
-                    <div className="mt-20">
+                    <div className="mt-16">
                         <h4 className="text-2xl font-semibold mb-4 text-legacy-sepia-700">Optional Enhancements</h4>
                         <ul className="list-disc list-inside text-lg space-y-2 max-w-5xl mx-auto text-legacy-sepia-800">
                             <li><strong>Custom Hardcover Memory Book</strong> (+$750) – Includes favorite quotes, family photos, and a scannable QR code linking to the video</li>
@@ -144,10 +144,10 @@ export default function Legacy() {
 
 
 
-            <section className="bg-legacy-rose-700 py-20 px-6">
+            <section className="bg-legacy-rose-700 py-16 px-6">
                 <div className="max-w-4xl mx-auto">
                     <h2 className="text-3xl font-semibold mb-10 text-center text-legacy-ivory-400">Frequently Asked Questions</h2>
-                    <div className="space-y-6 text-lg leading-snug">
+                    <div className="space-y-4 text-lg leading-snug">
                         <div>
                             <p className="font-medium text-legacy-ivory-100 mb-0">How long does it take?</p>
                             <p className="text-legacy-ivory-400">From first conversation to final delivery, typically 3–4 weeks.</p>
@@ -168,7 +168,7 @@ export default function Legacy() {
                 </div>
             </section>
 
-            <section id="contact" className="py-20 px-6 text-center bg-legacy-ivory-50">
+            <section id="contact" className="py-16 px-6 text-center bg-legacy-ivory-50">
                 <div className="max-w-4xl mx-auto ">
                     <h2 className="text-3xl font-semibold mb-4">Let’s Preserve a Story That Matters</h2>
                     <p className="text-lg mb-6 text-center">These videos are gifts—not just for now, but for decades to come. If someone in your life has a story worth telling (and they do), let’s capture it together.</p>
