@@ -27,7 +27,7 @@ export default function Legacy() {
                 <div className="absolute inset-0 bg-legacy-sepia-600 bg-opacity-70"></div>
 
                 {/* Content */}
-                <div className="relative z-10 max-w-3xl text-center px-4">
+                <div className="relative z-10 max-w-3xl text-center px-4 animate-fadeInUp">
                     <h1 className="text-8xl md:text-7xl font-bold mb-4 text-legacy-wheat-500">
                         Preserve Their Story. <br className="hidden md:block" />Pass Down Their Wisdom.
                     </h1>

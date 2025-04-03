@@ -7,14 +7,17 @@ import Feature from "@/app/components/feature";
 
 export default function Portfolio() {
     return (
-        <section className="mx-auto pb-12 bg-white.100">
+        <section className="mx-auto pb-12">
 
             <div
-                className="flex flex-row justify-center items-center bg-cover  bg-no-repeat h-80 sm:h-86 md:h-90 lg:h-97 xl:h-112"
+                className="relative text-white h-screen90vh flex items-center justify-center"
                 style={{
-                    backgroundImage: `url('/image/background/30.png')`,
+                    backgroundImage: `url('/image/background/hero-ourwork.jpg')`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
                 }}
             >
+                <div className="absolute z-0 inset-0 bg-legacy-sepia-700 bg-opacity-70"></div>
                 <Hero id={1}/>
             </div>
             <Feature  id={0} type="work"/>
