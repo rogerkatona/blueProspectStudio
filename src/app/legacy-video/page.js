@@ -46,7 +46,7 @@ export default function Legacy() {
 
             <section className="py-16 px-6 bg-legacy-ivory-200">
                 <div className="max-w-4xl mx-auto">
-                    <h2 className="text-3xl font-semibold mb-6 text-center">Some Stories Should Never Be Forgotten</h2>
+                    <h2 className="text-3xl font-semibold mb-6 text-center my-0">Some Stories Should Never Be Forgotten</h2>
                     <p className="text-lg leading-relaxed">There’s something sacred about hearing a loved one tell their story in their own voice—the laughter, the pauses, the way their eyes light up with a memory. Legacy Videos are more than interviews; they’re time capsules of presence, personality, and love.</p>
                     <p className="text-lg leading-relaxed mt-4">Whether it’s a grandparent sharing life lessons, a parent reflecting on their journey, or a couple celebrating a milestone anniversary, these videos become cherished keepsakes that only grow more meaningful with time.</p>
                 </div>
@@ -54,7 +54,7 @@ export default function Legacy() {
 
             <section className="bg-legacy-ivory-50 py-16 px-6">
                 <div className="max-w-4xl mx-auto">
-                    <h2 className="text-3xl font-semibold mb-10 text-center">How It Works</h2>
+                    <h2 className="text-3xl font-semibold mb-6 text-center my-0">How It Works</h2>
                     <div className="space-y-8">
                         <div>
                             <h3 className="text-xl font-bold">1. Discovery Call</h3>
@@ -75,7 +75,7 @@ export default function Legacy() {
 
             <section className="py-16 px-6 bg-legacy-ivory-200">
                 <div className="max-w-4xl mx-auto">
-                    <h2 className="text-3xl font-semibold mb-10 text-center">Legacy Video Packages & Pricing</h2>
+                    <h2 className="text-3xl font-semibold mb-10 text-center  my-0">Legacy Video Packages & Pricing</h2>
                     <p className="text-lg text-center mb-16">
                         More than just a video—this is a timeless gift, a conversation across generations, a way to keep the heart and soul of a loved one alive forever.
                     </p>
@@ -146,7 +146,7 @@ export default function Legacy() {
 
             <section className="bg-legacy-rose-700 py-16 px-6">
                 <div className="max-w-4xl mx-auto">
-                    <h2 className="text-3xl font-semibold mb-10 text-center text-legacy-ivory-400">Frequently Asked Questions</h2>
+                    <h2 className="text-3xl font-semibold mb-10 text-center text-legacy-ivory-400 my-0">Frequently Asked Questions</h2>
                     <div className="space-y-4 text-lg leading-snug">
                         <div>
                             <p className="font-medium text-legacy-ivory-100 mb-0">How long does it take?</p>
@@ -170,7 +170,7 @@ export default function Legacy() {
 
             <section id="contact" className="py-16 px-6 text-center bg-legacy-ivory-50">
                 <div className="max-w-4xl mx-auto ">
-                    <h2 className="text-3xl font-semibold mb-4">Let’s Preserve a Story That Matters</h2>
+                    <h2 className="text-3xl font-semibold mb-4 my-0">Let’s Preserve a Story That Matters</h2>
                     <p className="text-lg mb-6 text-center">These videos are gifts—not just for now, but for decades to come. If someone in your life has a story worth telling (and they do), let’s capture it together.</p>
                     <Link href=''>
                         <button
