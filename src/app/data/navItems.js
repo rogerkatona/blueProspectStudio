@@ -9,6 +9,10 @@ const navItems = [
         path: "/services",
     },
     {
+        label: "Legacy Video",
+        path: "/legacy-video",
+    },
+    {
         label: "Our work",
         path: "/portfolio",
     },

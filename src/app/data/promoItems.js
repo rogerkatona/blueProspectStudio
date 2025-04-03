@@ -2,7 +2,7 @@ const promoItems = [
     {
         id:0,
         headline: "Welcome to BP",
-        title: 'Where digital content intersects with a mastery of storytelling',
+        title: 'Everything we create is a story',
         source: "",
         text: " Our digital content creation company leverages cutting-edge AI and innovative technology to craft dynamic, engaging content that resonates deeply with your audience, creating memorable experiences that connect and convert.",
         actionText: "",

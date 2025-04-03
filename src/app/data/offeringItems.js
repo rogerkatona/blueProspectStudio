@@ -1,7 +1,7 @@
 const offeringItems = [
     {
         id: 0,
-        type: "services",
+        type: "web-services",
         label: "Web design & development",
         description: "Elevating digital experiences, one pixel at a time.",
         src: "/image/icon/services-design.svg",
@@ -49,6 +49,19 @@ const offeringItems = [
             "Frontend Development",
             "HTML/CSS/Javascript",
             "React Framework",
+        ]
+    },
+    {
+        id: 4,
+        type: "services",
+        label: "Legacy Videos",
+        description: "Virtual version of our workshop to elevate and inspire.",
+        src: "/image/icon/services-design.svg",
+        alt: 'Development Services Icon',
+        list: [
+            "Personal documentaries that preserve stories and voices",
+            "Beautifully filmed interviews capturing personality and wisdom",
+            "A timeless gift for your family and future generations",
         ]
     },
 ];
