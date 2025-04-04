@@ -1,19 +1,6 @@
 const offeringItems = [
     {
         id: 0,
-        type: "web-services",
-        label: "Web design & development",
-        description: "Elevating digital experiences, one pixel at a time.",
-        src: "/image/icon/services-design.svg",
-        alt: "UI/UX services for existing and new digital products",
-        list: [
-                "User-centered web design",
-                "Responsive design & performance optimization",
-                "front-end development, and back-end integration",
-        ]
-    },
-    {
-        id: 1,
         type: "services",
         label: "Legacy Video",
         description: "Virtual version of our workshop to elevate and inspire.",
@@ -26,20 +13,33 @@ const offeringItems = [
         ]
     },
     {
-        id: 3,
+        id: 2,
         type: "services",
         label: "Video production",
         description: "Bringing your vision to life, with world class production.",
         src: "/image/icon/services-dev.svg",
         alt: 'Opening Keynote',
         list: [
-                "Pre-production planning & storyboards",
-                "Case studies, client interviews, digital content",
-                "Expert video editing, and post-production",
-            ]
+            "Pre-production planning & storyboards",
+            "Case studies, client interviews, digital content",
+            "Expert video editing, and post-production",
+        ]
     },
     {
-        id: 2,
+        id: 3,
+        type: "services",
+        label: "Web design & development",
+        description: "Elevating digital experiences, one pixel at a time.",
+        src: "/image/icon/services-design.svg",
+        alt: "UI/UX services for existing and new digital products",
+        list: [
+                "User-centered web design",
+                "Responsive design & performance optimization",
+                "front-end development, and back-end integration",
+        ]
+    },
+    {
+        id: 4,
         type: "services",
         label: "Digital & social media content",
         description: "Spark conversations, ignite connections: your story, shared digitally.",
@@ -52,7 +52,7 @@ const offeringItems = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         type: "workshops",
         label: "Virtual Workshop",
         description: "Virtual version of our workshop to elevate and inspire.",
