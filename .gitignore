@@ -55,3 +55,7 @@ amplifytools.xcconfig
 .secret-*
 **.sample
 #amplify-do-not-edit-end
+
+# Ignore sitemap and robots from next-sitemap
+public/sitemap.xml
+public/robots.txt
