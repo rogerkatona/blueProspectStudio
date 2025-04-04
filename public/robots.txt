@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://blueprospect.com
+
+# Sitemaps
+Sitemap: https://blueprospect.com/sitemap.xml
