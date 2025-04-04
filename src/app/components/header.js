@@ -20,7 +20,7 @@ export default function Header({ toggleModal }) {
                             <div className="flex flex-row items-center">
                                 <div className="">
                                     <img
-                                        src="/image/logo/logo-light@2x 1.png"
+                                        src="/image/logo/logo-blueprospect.png"
                                         width={175}
                                         alt="Blue Prospect Studio - Logo"
                                     />

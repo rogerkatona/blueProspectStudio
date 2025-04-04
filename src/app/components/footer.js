@@ -17,7 +17,7 @@ export default function Footer({toggleModal}) {
                     <Link href='/'>
                         <div>
                             <img
-                                src="/image/logo/logo-light@2x 1.png"
+                                src="/image/logo/logo-blueprospect.png"
                                 width={200}
                                 alt='Blue Prospect Logo'
                             />

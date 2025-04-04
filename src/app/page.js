@@ -11,9 +11,10 @@ import ContactOverlay from "@/app/components/contact-overlay";
 import {useState} from "react";
 import dynamic from 'next/dynamic';
 
-// Lazy-load NextSeo and FAQPageJsonLd on the client
+// Lazy-load SEO components on the client
 const NextSeo = dynamic(() => import('next-seo').then(mod => mod.NextSeo), { ssr: false });
 const FAQPageJsonLd = dynamic(() => import('next-seo').then(mod => mod.FAQPageJsonLd), { ssr: false });
+const LogoJsonLd = dynamic(() => import('next-seo').then(mod => mod.LogoJsonLd), { ssr: false });
 
 
 export default function Home() {
@@ -68,6 +69,10 @@ export default function Home() {
                           'A Legacy Video is a professionally filmed interview that captures the voice, memories, and life story of a loved one to preserve for future generations.',
                   },
               ]}
+          />
+          <LogoJsonLd
+              logo="https://blueprospect.com/image/logo/logo-blueprospect.com" // use your actual logo URL
+              url="https://blueprospect.com"
           />
         <main>
             <HeroIndex toggleModal={toggleOverlay} />
