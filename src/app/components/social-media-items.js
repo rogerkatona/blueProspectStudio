@@ -1,3 +1,4 @@
+'use client';
 // components/SocialMediaItem.js
 
 import Link from "next/link";

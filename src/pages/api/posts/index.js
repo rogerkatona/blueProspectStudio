@@ -1,3 +1,5 @@
+'use client'; // This is a client component 👈🏽
+
 // pages/api/posts/index.js
 import fs from 'fs';
 import path from 'path';

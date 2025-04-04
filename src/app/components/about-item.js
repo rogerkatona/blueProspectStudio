@@ -1,3 +1,5 @@
+'use client'; // This is a client component 👈🏽
+
 import aboutItems from "../data/aboutItems";
 
 export default function AboutItem(props) {

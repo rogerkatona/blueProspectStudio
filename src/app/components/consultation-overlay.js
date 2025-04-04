@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useEffect, useRef } from 'react';
 import Script from 'next/script';
 
@@ -17,7 +19,7 @@ const ConsultationOverlay = ({ isOverlayVisible, toggleOverlay }) => {
                 if (window.Calendly && typeof window.Calendly.initInlineWidgets === 'function') {
                     window.Calendly.initInlineWidgets();
                 }
-            }, 300);
+            }, 200);
 
             return () => clearTimeout(timeout);
         }

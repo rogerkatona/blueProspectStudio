@@ -1,8 +1,8 @@
+'use client';
+
 import gridItems from "../data/gridItems";
 import Date from "./date";
 import Image from "next/image";
-import Link from "next/link";
-
 
 export default function GridMedia(props) {
 

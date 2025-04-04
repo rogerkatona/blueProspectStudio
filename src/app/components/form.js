@@ -1,12 +1,11 @@
 "use client"; // This is a client component 👈🏽
 
 import {useState} from "react";
-import {usePathname} from 'next/navigation'
 
 
 export const Form = ({ initialRef}) => {
 
-    const pathname = usePathname();
+    const pathname = typeof window !== 'undefined' ? window.location.pathname : '';
 
     const initialState = {
         name: '',

@@ -1,3 +1,5 @@
+'use client'; // This is a client component 👈🏽
+
 
 export default function ClientLogos({ children, type }) {
     return (

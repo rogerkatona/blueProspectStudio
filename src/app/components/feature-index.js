@@ -1,3 +1,5 @@
+'use client';
+
 import serviceItems from "../data/serviceItems";
 import Link from "next/link";
 import Date from "@/app/components/date";

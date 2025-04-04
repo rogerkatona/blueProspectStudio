@@ -1,3 +1,5 @@
+'use client'; // This is a client component 👈🏽
+
 import blogItems from "../data/blogItems";
 import Date from "@/app/components/date";
 

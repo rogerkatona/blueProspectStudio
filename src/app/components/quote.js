@@ -1,3 +1,5 @@
+'use client';
+
 import quoteItems from "../data/quoteItems";
 
 

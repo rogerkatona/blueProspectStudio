@@ -3,8 +3,6 @@
 import Link from "next/link";
 import NavBar from "./navBar";
 import navItems from "../data/navItems";
-import useModal from "../lib/useModal";
-import Modal from "./modal";
 import SocialMediaItem from "@/app/components/social-media-items";
 import socialMediaItems from "@/app/data/socialMediaItems";
 

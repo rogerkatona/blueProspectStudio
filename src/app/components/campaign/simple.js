@@ -1,3 +1,5 @@
+'use client';
+
 import campaignItems from "@/app/data/campaign";
 
 

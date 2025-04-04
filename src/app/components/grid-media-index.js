@@ -1,3 +1,5 @@
+'use client';
+
 import gridItems from "../data/gridItems";
 import Date from "./date";
 import Image from "next/image";

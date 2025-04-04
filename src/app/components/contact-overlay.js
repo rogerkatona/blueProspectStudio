@@ -1,4 +1,6 @@
+'use client';
 // ContactOverlay.js
+
 import React from 'react';
 import {Form} from "@/app/components/form";
 

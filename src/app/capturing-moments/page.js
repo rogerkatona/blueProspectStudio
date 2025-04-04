@@ -1,6 +1,5 @@
-"use client"; // This is a client component 👈🏽
+'use client'; // This is a client component 👈🏽
 
-import Link from "next/link";
 import {useState} from "react";
 import ContactOverlay from "@/app/components/contact-overlay";
 import Simple from "@/app/components/campaign/simple";

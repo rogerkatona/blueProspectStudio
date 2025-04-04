@@ -4,7 +4,7 @@ const promoItems = [
         headline: "Welcome to BP",
         title: 'Everything we create is a story',
         source: "",
-        text: " Our digital content creation company leverages cutting-edge AI and innovative technology to craft dynamic, engaging content that resonates deeply with your audience, creating memorable experiences that connect and convert.",
+        text: "Blue Prospect is a creative agency based in San Diego, blending thoughtful design, storytelling, and technology. We specialize in custom web design, dynamic video production, and a unique offering called Legacy Videos — heartfelt cinematic interviews that preserve the voice and memory of loved ones. Whether you're building a brand or honoring a life, we bring clarity and creativity to your message.",
         actionText: "",
         buttonLabel: '',
     },

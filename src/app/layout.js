@@ -1,6 +1,7 @@
 import {Inter, Roboto, Bebas_Neue, Raleway} from 'next/font/google'
 import './globals.css'
 
+
 export const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
@@ -28,16 +29,18 @@ export const bebasNeue = Bebas_Neue({
   variable: '--font-bebasNeue',
 })
 
-
 export const metadata = {
-  title: 'Blue Prospect Studio',
-  description: 'Digital content studio',
-}
+  title: 'Blue Prospect',
+  description: 'Creative services in web design, video production, and legacy storytelling.',
+};
+
 
 export default function RootLayout({ children }) {
   return (
       <html lang="en" className={`${inter.variable} ${roboto.variable} ${bebasNeue.variable} ${raleway.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
   )
 }

@@ -1,8 +1,15 @@
-"use client"; // This is a client component 👈🏽
+'use client'; // This is a client component 👈🏽
 
 import Link from "next/link";
 import ConsultationOverlay from "@/app/components/consultation-overlay";
 import {useState} from "react";
+import dynamic from 'next/dynamic';
+
+// Lazy-load NextSeo and FAQPageJsonLd on the client
+const NextSeo = dynamic(() => import('next-seo').then(mod => mod.NextSeo), { ssr: false });
+const FAQPageJsonLd = dynamic(() => import('next-seo').then(mod => mod.FAQPageJsonLd), { ssr: false });
+
+
 
 export default function Legacy() {
 
@@ -13,8 +20,45 @@ export default function Legacy() {
 
     return (
         <>
+            <NextSeo
+                title="Legacy Videos | Capture Family Stories in a Cinematic Film"
+                description="Preserve your loved one’s voice, wisdom, and story with a professionally filmed Legacy Video. A timeless gift for generations to come."
+                openGraph={{
+                    title: 'Legacy Videos | Capture Family Stories in a Cinematic Film',
+                    description:
+                        "Preserve your loved one’s voice, wisdom, and story with a professionally filmed Legacy Video. A timeless gift for generations to come.",
+                    url: 'https://blueprospect.com/legacy-video',
+                    type: 'website',
+                    images: [
+                        {
+                            url: 'https://blueprospect.com/image/background/hero-legacy-video.jpg', // replace with your actual share image
+                            width: 1200,
+                            height: 630,
+                            alt: 'Legacy Video cover image',
+                        },
+                    ],
+                }}
+            />
+            <FAQPageJsonLd
+                mainEntity={[
+                    {
+                        questionName: 'What is a Legacy Video?',
+                        acceptedAnswerText:
+                            'A Legacy Video is a professionally filmed interview that captures a loved one’s voice, story, and life wisdom to preserve for future generations.',
+                    },
+                    {
+                        questionName: 'Who are Legacy Videos for?',
+                        acceptedAnswerText:
+                            'Legacy Videos are ideal for families who want to preserve the essence of a parent, grandparent, or elder for future generations.',
+                    },
+                    {
+                        questionName: 'How long is a Legacy Video?',
+                        acceptedAnswerText:
+                            'Each Legacy Video is typically 20–60 minutes depending on the package and content shared. Custom lengths are available.',
+                    },
+                ]}
+            />
         <section className="mx-auto pb-12 bg-white.100">
-
             <section
                 className="relative bg-legacy-sepia-600 text-white h-screen90vh flex items-center justify-center"
                 style={{

@@ -1,4 +1,4 @@
-"use client"; // This is a client component 👈🏽
+'use client'; // This is a client component 👈🏽
 
 import Quote from "@/app/components/quote";
 import Hero from "@/app/components/hero";
