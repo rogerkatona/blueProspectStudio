@@ -40,7 +40,7 @@ const offeringItems = [
     },
     {
         id: 4,
-        type: "services",
+        type: "sm-services",
         label: "Digital & social media content",
         description: "Spark conversations, ignite connections: your story, shared digitally.",
         src: "/image/icon/services-design.svg",

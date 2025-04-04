@@ -20,7 +20,7 @@ export default function Quote(props) {
                         key={filteredItem.id}
                         className={`md:px-12 px-6 py-12 pt-20  ${filteredItem.id % 2 === 0  ? 'bg-white.100' : 'bg-gray '}`}>
 
-                            <section className="flex flex-col justify-center items-center lg:px-0 p-6 relative lg:mx-auto lg:max-w-7xl border-2 border-gray.200 ">
+                            <section className="flex flex-col justify-center items-center lg:px-0 p-6 relative lg:mx-auto lg:max-w-5xl border-2 border-gray.200 ">
                                 <div className='flex flex-shrink-0 absolute -top-10 '>
                                     <img
                                         src={filteredItem.src}

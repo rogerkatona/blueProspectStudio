@@ -10,6 +10,7 @@ import Offerings from "@/app/components/offerings";
 import ContactOverlay from "@/app/components/contact-overlay";
 import {useState} from "react";
 import dynamic from 'next/dynamic';
+import FAQ from "@/app/components/faq";
 
 // Lazy-load SEO components on the client
 const NextSeo = dynamic(() => import('next-seo').then(mod => mod.NextSeo), { ssr: false });
@@ -28,7 +29,7 @@ export default function Home() {
       <>
           <NextSeo
               title="Blue Prospect | Web Design, Video Production & Legacy Storytelling"
-              description="Creative services built to connect — from custom websites and cinematic video to deeply meaningful Legacy Videos. Based in San Diego, serving nationwide."
+              description="Emotion-forward creative studio specializing in web design, cinematic video production, and timeless Legacy Videos. Based in San Diego, serving nationwide."
               canonical="https://blueprospect.com"
               openGraph={{
                   title: 'Blue Prospect | Web Design, Video Production & Legacy Storytelling',
@@ -81,7 +82,7 @@ export default function Home() {
             <Offerings type="services"/>
             <FeatureIndex  featured="true" type="work"/>
             <Quote id={0}/>
-            <FeatureIndex  featured="true" type="process"/>
+            <FAQ type="home" toggleModal={toggleOverlay} />
             <GridMediaIndex type="media"/>
             <Promo id={1}/>
             <ContactOverlay isOverlayVisible={isOverlayVisible} toggleOverlay={toggleOverlay} />
