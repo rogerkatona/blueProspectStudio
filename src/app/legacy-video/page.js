@@ -60,7 +60,7 @@ export default function Legacy() {
             />
         <section className="mx-auto pb-12 bg-white.100">
             <section
-                className="relative bg-legacy-sepia-600 text-white h-screen90vh flex items-center justify-center"
+                className="relative text-white h-screen90vh flex items-center justify-center"
                 style={{
                     backgroundImage: `url('/image/background/hero-legacy-video.jpg')`,
                     backgroundSize: 'cover',
@@ -68,7 +68,7 @@ export default function Legacy() {
                 }}
             >
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-legacy-sepia-600 bg-opacity-70"></div>
+                <div className="absolute inset-0 bg-legacy-sepia-600 bg-opacity-60"></div>
 
                 {/* Content */}
                 <div className="relative z-10 max-w-3xl text-center px-4 animate-fadeInUp">
