@@ -22,7 +22,7 @@ export default function HeroIndex({ toggleModal }) {
             <div className="absolute inset-0 bg-darkBlue.600 bg-opacity-70"></div>
 
             <div className="flex flex-col text-center z-10 animate-fadeInUp">
-                <h2 className="text-8xl md:text-7xl font-bold  text-legacy-wheat-50 font-bebasNeue mt-0">
+                <h2 className="text-5xl md:text-8xl font-bold  text-legacy-wheat-50 font-bebasNeue mt-0">
                     Stories That Stick.<br className="hidden md:block" /> Visuals That Speak.
                 </h2>
                 <h1 className="hidden">Legacy Video & Creative Production Studio | Blue Prospect</h1>

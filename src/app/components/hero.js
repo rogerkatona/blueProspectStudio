@@ -17,8 +17,8 @@ export default function Hero(props) {
                     key={filteredItem.id}
                     className="flex flex-col justify-center items-center xl:px-0 px-6 text-center">
                     <div>
-                        <div className={`${filteredItem.background === 'dark'  ? 'text-bg100' : 'text-lightBlue.500'} font-bebasNeue md:text-7xl text-6xl uppercase mb-4 text-legacy-wheat-600`}>{filteredItem.label}</div>
-                        <div className={`${filteredItem.background === 'dark'  ? 'text-bg100' : 'text-lightBlue.500'} max-w-3xl leading-normal text-xl text-legacy-taupe-200`}>{filteredItem.description}</div>
+                        <div className={`${filteredItem.background === 'dark'  ? 'text-bg100' : 'text-lightBlue.500'} font-bebasNeue md:text-8xl text-5xl uppercase mb-4 text-legacy-wheat-600`}>{filteredItem.label}</div>
+                        <div className={`${filteredItem.background === 'dark'  ? 'text-bg100' : 'text-lightBlue.500'} md:max-w-3xl leading-normal text-xl text-legacy-taupe-200`}>{filteredItem.description}</div>
                     </div>
                 </section>
             ))}

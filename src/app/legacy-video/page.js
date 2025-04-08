@@ -72,10 +72,10 @@ export default function Legacy() {
 
                 {/* Content */}
                 <div className="relative z-10 max-w-3xl text-center px-4 animate-fadeInUp">
-                    <h1 className="text-8xl md:text-7xl font-bold mb-4 text-legacy-wheat-500">
+                    <h1 className="text-6xl md:text-8xl font-bold mb-4 text-legacy-wheat-500">
                         Preserve Their Story. <br className="hidden md:block" />Pass Down Their Wisdom.
                     </h1>
-                    <p className="md:text text-xl text-legacy-rose-500 mb-7 text-center leading-normal">
+                    <p className="md:text-xl text text-legacy-rose-500 mb-7 text-center leading-normal">
                         Legacy Videos are personal documentaries that capture the voice, memories, and essence of someone you love—so their story lives on for generations.
                     </p>
                     <Link href=''>
@@ -120,12 +120,19 @@ export default function Legacy() {
             <section className="py-16 px-6 bg-legacy-ivory-200">
                 <div className="max-w-4xl mx-auto">
                     <h2 className="text-3xl font-semibold mb-10 text-center  my-0">Legacy Video Packages & Pricing</h2>
-                    <p className="text-lg text-center mb-16">
+                    <p className="text-lg text-center">
                         More than just a video—this is a timeless gift, a conversation across generations, a way to keep the heart and soul of a loved one alive forever.
                     </p>
-
+                    <div className="mb-16 text-center">
+                        <Link href=''>
+                            <button
+                                onClick={toggleOverlay}
+                                className="bg-legacy-ivory-400 hover:bg-legacy-rose-700 hover:text-legacy-sepia-100 text-xs text-legacy-sepia-700 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-6 font-bold">
+                                Schedule a free consultation
+                            </button>
+                        </Link>
+                    </div>
                     <div className="space-y-12">
-
                         <div className="bg-legacy-ivory-50 border p-8 rounded-lg shadow">
                             <h3 className="text-2xl font-bold mb-2">The Essential Legacy Film</h3>
                             <p className="text-lg text-gray-600 mb-4 italic">$2,500 – A heartfelt, intimate video to ensure their story is never lost.</p>
