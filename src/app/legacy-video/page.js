@@ -286,20 +286,20 @@ export default function Legacy() {
                     <h2 className="text-3xl font-semibold mb-10 text-center text-legacy-ivory-400 my-0">Frequently Asked Questions</h2>
                     <dl className="space-y-6 text-legacy-ivory-100 text-lg max-w-5xl mx-auto">
                         <div>
-                            <dt className="font-medium">How long does it take?</dt>
-                            <dd className="text-legacy-ivory-400">From first conversation to final delivery, typically 3–4 weeks.</dd>
+                            <dt className="font-semibold">How long does it take?</dt>
+                            <dd className="text-legacy-ivory-300">From first conversation to final delivery, typically 3–4 weeks.</dd>
                         </div>
                         <div>
-                            <dt className="font-medium">What if my loved one is camera shy?</dt>
-                            <dd className="text-legacy-ivory-400">That’s totally normal. I create a calm, warm environment. Most people open up beautifully once we get started.</dd>
+                            <dt className="font-semibold">What if my loved one is camera shy?</dt>
+                            <dd className="text-legacy-ivory-300">That’s totally normal. I create a calm, warm environment. Most people open up beautifully once we get started.</dd>
                         </div>
                         <div>
-                            <dt className="font-medium">Do you travel?</dt>
-                            <dd className="text-legacy-ivory-400">Yes, I’m based in San Diego, CA, but I’m happy to travel. Let’s talk about the details.</dd>
+                            <dt className="font-semibold">Do you travel?</dt>
+                            <dd className="text-legacy-ivory-300">Yes, I’m based in San Diego, CA, but I’m happy to travel. Let’s talk about the details.</dd>
                         </div>
                         <div>
-                            <dt className="font-medium">Can I be involved in the questions?</dt>
-                            <dd className="text-legacy-ivory-400">Absolutely. I’ll work with you to craft thoughtful prompts that bring out meaningful stories.</dd>
+                            <dt className="font-semibold">Can I be involved in the questions?</dt>
+                            <dd className="text-legacy-ivory-300">Absolutely. I’ll work with you to craft thoughtful prompts that bring out meaningful stories.</dd>
                         </div>
                     </dl>
                 </div>
