@@ -58,7 +58,7 @@ export default function Legacy() {
                     },
                 ]}
             />
-        <section className="mx-auto pb-12 bg-white.100">
+        <section className="mx-auto bg-white.100">
             <section
                 className="relative text-white h-screen90vh flex items-center justify-center"
                 style={{
@@ -211,31 +211,31 @@ export default function Legacy() {
                             <p className="text-lg mb-4">A full-scale documentary-style film capturing the essence of a life well-lived. This production weaves together interviews, visuals, and narrative to create something unforgettable.</p>
                             <ul className="space-y-3">
                                 <li className="flex items-start">
-                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
                                     <span className="text-lg text-legacy-sepia-800">Includes everything in <strong>The Timeless Heirloom Film</strong></span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
                                     <span className="text-lg text-legacy-sepia-800"><strong>Filming Over Multiple Days</strong> – For a complete portrait</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
                                     <span className="text-lg text-legacy-sepia-800"><strong>Multi-Camera Setup</strong> – Cinematic angles and movement</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
                                     <span className="text-lg text-legacy-sepia-800"><strong>Emotional B-Roll & Candid Moments</strong> – Daily life captured with care</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
                                     <span className="text-lg text-legacy-sepia-800"><strong>Handcrafted Narrative & Music Score</strong> – Deeply personal and evocative</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
                                     <span className="text-lg text-legacy-sepia-800"><strong>Future Messages</strong> – Personal recordings for weddings, milestones, and more</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
                                     <span className="text-lg text-legacy-sepia-800"><strong>Deluxe Archival Storage</strong> – USB keepsake, cloud delivery, DVD/Blu-ray upon request</span>
                                 </li>
                             </ul>
@@ -284,24 +284,24 @@ export default function Legacy() {
             <section className="bg-legacy-rose-700 py-16 px-6">
                 <div className="max-w-4xl mx-auto">
                     <h2 className="text-3xl font-semibold mb-10 text-center text-legacy-ivory-400 my-0">Frequently Asked Questions</h2>
-                    <div className="space-y-4 text-lg leading-snug">
+                    <dl className="space-y-6 text-legacy-ivory-100 text-lg max-w-5xl mx-auto">
                         <div>
-                            <p className="font-medium text-legacy-ivory-100 mb-0">How long does it take?</p>
-                            <p className="text-legacy-ivory-400">From first conversation to final delivery, typically 3–4 weeks.</p>
+                            <dt className="font-medium">How long does it take?</dt>
+                            <dd className="text-legacy-ivory-400">From first conversation to final delivery, typically 3–4 weeks.</dd>
                         </div>
                         <div>
-                            <p className="font-medium text-legacy-ivory-100 mb-0">What if my loved one is camera shy?</p>
-                            <p className="text-legacy-ivory-400">That’s totally normal. I create a calm, warm environment. Most people open up beautifully once we get started.</p>
+                            <dt className="font-medium">What if my loved one is camera shy?</dt>
+                            <dd className="text-legacy-ivory-400">That’s totally normal. I create a calm, warm environment. Most people open up beautifully once we get started.</dd>
                         </div>
                         <div>
-                            <p className="font-medium text-legacy-ivory-100 mb-0">Do you travel?</p>
-                            <p className="text-legacy-ivory-400">Yes, I’m based in San Diego, CA, but I’m happy to travel. Let’s talk about the details.</p>
+                            <dt className="font-medium">Do you travel?</dt>
+                            <dd className="text-legacy-ivory-400">Yes, I’m based in San Diego, CA, but I’m happy to travel. Let’s talk about the details.</dd>
                         </div>
                         <div>
-                            <p className="font-medium text-legacy-ivory-100 mb-0">Can I be involved in the questions?</p>
-                            <p className="text-legacy-ivory-400">Absolutely. I’ll work with you to craft thoughtful prompts that bring out meaningful stories.</p>
+                            <dt className="font-medium">Can I be involved in the questions?</dt>
+                            <dd className="text-legacy-ivory-400">Absolutely. I’ll work with you to craft thoughtful prompts that bring out meaningful stories.</dd>
                         </div>
-                    </div>
+                    </dl>
                 </div>
             </section>
 
