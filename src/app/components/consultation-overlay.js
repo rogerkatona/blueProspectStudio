@@ -54,7 +54,7 @@ const ConsultationOverlay = ({ isOverlayVisible, toggleOverlay }) => {
                 </section>
 
                 <section className="max-w-4xl mx-auto">
-                    <div className="lg:p-12 p-6 h-full flex flex-col items-center text-center">
+                    <div className="lg:p-12 p-0 h-full flex flex-col items-center text-center">
 
                         <div className="font-bebasNeue text-6xl text-bg100 pb-4">
                             Let’s Chat
@@ -69,13 +69,13 @@ const ConsultationOverlay = ({ isOverlayVisible, toggleOverlay }) => {
                         </div>
 
                         {/* Calendly Inline Embed */}
-                        <div className="w-full max-w-3xl mx-auto text-center pb-6">
+                        <div className="w-full max-w-3xl mx-auto text-center pb-12">
                             <img
                                 src="/image/logo/logoSM-bp.png"
                                 alt="Blue Prospect"
                                 className="mx-auto h-24"
                             />
-                            <h2 className="font-raleway text-xl text-gray.300 pt-2 m-0 -mb-16">
+                            <h2 className="font-raleway text-xl text-gray.300 pt-2 m-0 md:-mb-16 font-bold">
                                 Book your Legacy Video consultation
                             </h2>
                         </div>
