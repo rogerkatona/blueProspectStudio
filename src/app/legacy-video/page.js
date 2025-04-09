@@ -75,7 +75,7 @@ export default function Legacy() {
                     <h1 className="text-6xl md:text-8xl font-bold mb-4 text-legacy-wheat-500">
                         Preserve Their Story. <br className="hidden md:block" />Pass Down Their Wisdom.
                     </h1>
-                    <p className="md:text-xl text text-legacy-rose-500 mb-7 text-center leading-normal">
+                    <p className="md:text-xl text text-legacy-rose-300 mb-7 text-center leading-normal">
                         Legacy Videos are personal documentaries that capture the voice, memories, and essence of someone you love—so their story lives on for generations.
                     </p>
                     <Link href=''>
@@ -132,64 +132,150 @@ export default function Legacy() {
                             </button>
                         </Link>
                     </div>
+
                     <div className="space-y-12">
+                        {/* Essential Legacy Film */}
                         <div className="bg-legacy-ivory-50 border p-8 rounded-lg shadow">
                             <h3 className="text-2xl font-bold mb-2">The Essential Legacy Film</h3>
                             <p className="text-lg text-gray-600 mb-4 italic">$3,500 – A heartfelt, intimate video to ensure their story is never lost.</p>
                             <p className="text-lg mb-4">A beautifully intimate, one-of-a-kind film capturing the heart, wisdom, and essence of your loved one, preserving their voice and presence for future generations.</p>
-                            <ul className="list-disc list-inside text-lg space-y-2 text-legacy-sepia-800">
-                                <li><strong>Pre-Filming Connection Time</strong> – Understanding their story and comfort zone</li>
-                                <li><strong>One Full Day of Filming</strong> – In a familiar, relaxed environment</li>
-                                <li><strong>Guided Interview</strong> – Thoughtful questions to draw out reflections</li>
-                                <li><strong>Authentic Moments Captured</strong> – Laughter, expression, and nuance</li>
-                                <li><strong>20–30 Minute Edited Film</strong> – Gentle pacing, soft music, clean transitions</li>
-                                <li><strong>Private Digital Delivery</strong> – A high-quality file ready to share</li>
+                            <ul className="space-y-3">
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Pre-Filming Connection Time</strong> – Understanding their story and comfort zone</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>One Full Day of Filming</strong> – In a familiar, relaxed environment</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Guided Interview</strong> – Thoughtful questions to draw out reflections</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Authentic Moments Captured</strong> – Laughter, expression, and nuance</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>20–30 Minute Edited Film</strong> – Gentle pacing, soft music, clean transitions</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Private Digital Delivery</strong> – A high-quality file ready to share</span>
+                                </li>
                             </ul>
                         </div>
 
+                        {/* Timeless Heirloom Film */}
                         <div className="bg-legacy-ivory-50 border p-8 rounded-lg shadow">
                             <h3 className="text-2xl font-bold mb-2">The Timeless Heirloom Film</h3>
                             <p className="text-lg text-gray-600 mb-4 italic">$6,000 – A deeper, more immersive storytelling experience.</p>
                             <p className="text-lg mb-4">An expanded legacy film incorporating rich storytelling, personal artifacts, and a deeper visual experience that connects generations through memory and meaning.</p>
-                            <ul className="list-disc list-inside text-lg space-y-2 text-legacy-sepia-800">
-                                <li>Includes everything in <strong>The Essential Legacy Film</strong></li>
-                                <li><strong>Filming in Two Locations</strong> – Adds visual depth and movement</li>
-                                <li><strong>Photo & Vintage Footage Integration</strong> – Merges past with present</li>
-                                <li><strong>Meaningful Object Close-Ups</strong> – Heirlooms, notes, or mementos</li>
-                                <li><strong>Extended Interview & Bonus Messages</strong> – For future milestones</li>
-                                <li><strong>Custom Titles & Personal Touches</strong> – From handwriting to music</li>
-                                <li><strong>Premium Online Viewing</strong> – Private, password-protected link</li>
+                            <ul className="space-y-3">
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800">Includes everything in <strong>The Essential Legacy Film</strong></span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Filming in Two Locations</strong> – Adds visual depth and movement</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Photo & Vintage Footage Integration</strong> – Merges past with present</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Meaningful Object Close-Ups</strong> – Heirlooms, notes, or mementos</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Extended Interview & Bonus Messages</strong> – For future milestones</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Custom Titles & Personal Touches</strong> – From handwriting to music</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Premium Online Viewing</strong> – Private, password-protected link</span>
+                                </li>
                             </ul>
                         </div>
 
+                        {/* Legacy Documentary */}
                         <div className="bg-legacy-ivory-50 border p-8 rounded-lg shadow">
                             <h3 className="text-2xl font-bold mb-2">The Legacy Documentary</h3>
                             <p className="text-lg text-gray-600 mb-4 italic">$9,500 – A cinematic heirloom film that ensures their presence, wisdom, and love live on forever.</p>
                             <p className="text-lg mb-4">A full-scale documentary-style film capturing the essence of a life well-lived. This production weaves together interviews, visuals, and narrative to create something unforgettable.</p>
-                            <ul className="list-disc list-inside text-lg space-y-2 text-legacy-sepia-800">
-                                <li>Includes everything in <strong>The Timeless Heirloom Film</strong></li>
-                                <li><strong>Filming Over Multiple Days</strong> – For a complete portrait</li>
-                                <li><strong>Multi-Camera Setup</strong> – Cinematic angles and movement</li>
-                                <li><strong>Emotional B-Roll & Candid Moments</strong> – Daily life captured with care</li>
-                                <li><strong>Handcrafted Narrative & Music Score</strong> – Deeply personal and evocative</li>
-                                <li><strong>Future Messages</strong> – Personal recordings for weddings, milestones, and more</li>
-                                <li><strong>Deluxe Archival Storage</strong> – USB keepsake, cloud delivery, DVD/Blu-ray upon request</li>
+                            <ul className="space-y-3">
+                                <li className="flex items-start">
+                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800">Includes everything in <strong>The Timeless Heirloom Film</strong></span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Filming Over Multiple Days</strong> – For a complete portrait</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Multi-Camera Setup</strong> – Cinematic angles and movement</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Emotional B-Roll & Candid Moments</strong> – Daily life captured with care</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Handcrafted Narrative & Music Score</strong> – Deeply personal and evocative</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Future Messages</strong> – Personal recordings for weddings, milestones, and more</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="mt-1 mr-3 text-lg text-legacy-sepia-800">•</span>
+                                    <span className="text-lg text-legacy-sepia-800"><strong>Deluxe Archival Storage</strong> – USB keepsake, cloud delivery, DVD/Blu-ray upon request</span>
+                                </li>
                             </ul>
                         </div>
                     </div>
 
                     <div className="mt-16">
                         <h4 className="text-2xl font-semibold mb-4 text-legacy-sepia-700">Optional Enhancements</h4>
-                        <ul className="list-disc list-inside text-lg space-y-2 max-w-5xl mx-auto text-legacy-sepia-800">
-                            <li><strong>Custom Hardcover Memory Book</strong> (+$750) – Includes favorite quotes, family photos, and a scannable QR code linking to the video</li>
-                            <li><strong>Professional Voiceover</strong> (+$500) – A warm narrative to thread the story together</li>
-                            <li><strong>Family Cameo Clips</strong> (+$600) – Short video messages from loved ones</li>
-                            <li><strong>Extended Feature-Length Film</strong> (+$1,000) – A longer version with more story depth</li>
-                            <li><strong>Custom Music Score</strong> (+$800) – An instrumental based on their favorite song</li>
-                            <li><strong>On-Location Family Interviews</strong> (+$1,500) – Multi-generational stories woven in</li>
-                            <li><strong>Commemorative Video Book</strong> (+$1,200) – A physical book with a built-in screen that plays the film</li>
-                        </ul>
+                        <dl className="space-y-6 text-legacy-sepia-800 text-lg max-w-5xl mx-auto">
+                            <div>
+                                <dt className="font-semibold">Custom Hardcover Memory Book <span className="font-normal text-gray-600">(+ $750)</span></dt>
+                                <dd>Includes favorite quotes, family photos, and a scannable QR code linking to the video</dd>
+                            </div>
+                            <div>
+                                <dt className="font-semibold">Professional Voiceover <span className="font-normal text-gray-600">(+ $500)</span></dt>
+                                <dd>A warm narrative to thread the story together</dd>
+                            </div>
+                            <div>
+                                <dt className="font-semibold">Family Cameo Clips <span className="font-normal text-gray-600">(+ $600)</span></dt>
+                                <dd>Short video messages from loved ones</dd>
+                            </div>
+                            <div>
+                                <dt className="font-semibold">Extended Feature-Length Film <span className="font-normal text-gray-600">(+ $1,000)</span></dt>
+                                <dd>A longer version with more story depth</dd>
+                            </div>
+                            <div>
+                                <dt className="font-semibold">Custom Music Score <span className="font-normal text-gray-600">(+ $800)</span></dt>
+                                <dd>An instrumental based on their favorite song</dd>
+                            </div>
+                            <div>
+                                <dt className="font-semibold">On-Location Family Interviews <span className="font-normal text-gray-600">(+ $1,500)</span></dt>
+                                <dd>Multi-generational stories woven in</dd>
+                            </div>
+                            <div>
+                                <dt className="font-semibold">Commemorative Video Book <span className="font-normal text-gray-600">(+ $1,200)</span></dt>
+                                <dd>A physical book with a built-in screen that plays the film</dd>
+                            </div>
+                        </dl>
                     </div>
+
                 </div>
             </section>
 

@@ -42,10 +42,10 @@ hr {
   @apply text-gray.500 my-4;
 }
 p {
-  @apply leading-loose text-justify md:text-left mb-4 text-gray.500;
+  @apply leading-loose md:text-left mb-4 text-gray.500;
 }
 span {
-  @apply leading-loose text-justify md:text-left mb-3 text-gray.500;
+  @apply leading-loose md:text-left mb-3 text-gray.500;
 }
 
 p a {
