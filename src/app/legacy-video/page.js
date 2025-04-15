@@ -294,6 +294,10 @@ export default function Legacy() {
                             <dd className="text-legacy-ivory-300">That’s totally normal. I create a calm, warm environment. Most people open up beautifully once we get started.</dd>
                         </div>
                         <div>
+                            <dt className="font-semibold">Can we include family photos in the video?</dt>
+                            <dd className="text-legacy-ivory-300">Absolutely! We integrate old photos for a richer story.</dd>
+                        </div>
+                        <div>
                             <dt className="font-semibold">Do you travel?</dt>
                             <dd className="text-legacy-ivory-300">Yes, I’m based in San Diego, CA, but I’m happy to travel. Let’s talk about the details.</dd>
                         </div>
