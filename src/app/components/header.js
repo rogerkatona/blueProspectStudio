@@ -55,7 +55,7 @@ export default function Header({ toggleModal }) {
                              <Link href=''>
                                  <button
                                      onClick={toggleModal}
-                                     className="bg-sand hover:bg-sandLight hover:text-bg100 text-xs text-gray.800 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-2">
+                                     className="bg-sand hover:bg-sandLight hover:text-bg100 text-xs text-gray.800 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-2  font-bold">
                                      Contact us
                                  </button>
                             </Link>
