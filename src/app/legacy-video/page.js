@@ -316,7 +316,7 @@ export default function Legacy() {
                     <Link href=''>
                         <button
                             onClick={toggleOverlay}
-                            className="bg-legacy-ivory-800 hover:bg-legacy-rose-400 hover:text-legacy-sepia-900 text-xs text-legacy-sepia-50 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-6 font-bold">
+                            className="text-xs hover:bg-legacy-rose-400 hover:text-legacy-ivory-200 bg-legacy-ivory-300 text-legacy-sepia-900 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-6 font-bold">
                             Start the Conversation
                         </button>
                     </Link>
