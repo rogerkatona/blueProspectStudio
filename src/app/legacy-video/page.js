@@ -137,7 +137,7 @@ export default function Legacy() {
                         {/* Essential Legacy Film */}
                         <div className="bg-legacy-ivory-50 border p-8 rounded-lg shadow">
                             <h3 className="text-2xl font-bold mb-2">The Essential Legacy Film</h3>
-                            <p className="text-lg text-gray-600 mb-4 italic">$3,500 – A heartfelt, intimate video to ensure their story is never lost.</p>
+                            <p className="text-lg text-gray-600 mb-4 italic">$5,000 – A heartfelt, intimate video to ensure their story is never lost.</p>
                             <p className="text-lg mb-4">A beautifully intimate, one-of-a-kind film capturing the heart, wisdom, and essence of your loved one, preserving their voice and presence for future generations.</p>
                             <ul className="space-y-3">
                                 <li className="flex items-start">
@@ -170,7 +170,7 @@ export default function Legacy() {
                         {/* Timeless Heirloom Film */}
                         <div className="bg-legacy-ivory-50 border p-8 rounded-lg shadow">
                             <h3 className="text-2xl font-bold mb-2">The Timeless Heirloom Film</h3>
-                            <p className="text-lg text-gray-600 mb-4 italic">$6,000 – A deeper, more immersive storytelling experience.</p>
+                            <p className="text-lg text-gray-600 mb-4 italic">$10,000 – A deeper, more immersive storytelling experience.</p>
                             <p className="text-lg mb-4">An expanded legacy film incorporating rich storytelling, personal artifacts, and a deeper visual experience that connects generations through memory and meaning.</p>
                             <ul className="space-y-3">
                                 <li className="flex items-start">
@@ -207,7 +207,7 @@ export default function Legacy() {
                         {/* Legacy Documentary */}
                         <div className="bg-legacy-ivory-50 border p-8 rounded-lg shadow">
                             <h3 className="text-2xl font-bold mb-2">The Legacy Documentary</h3>
-                            <p className="text-lg text-gray-600 mb-4 italic">$9,500 – A cinematic heirloom film that ensures their presence, wisdom, and love live on forever.</p>
+                            <p className="text-lg text-gray-600 mb-4 italic">$15,000 – A cinematic heirloom film that ensures their presence, wisdom, and love live on forever.</p>
                             <p className="text-lg mb-4">A full-scale documentary-style film capturing the essence of a life well-lived. This production weaves together interviews, visuals, and narrative to create something unforgettable.</p>
                             <ul className="space-y-3">
                                 <li className="flex items-start">
